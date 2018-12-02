@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= page.title %></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1><%= page.header %></h1>
+      </div>
+    </header>
+    <main>
+      <% const posts = site.queryPages((data) => data.type == "post") %>
+      <% posts.forEach(function(post) { %>
+        <a href="<%- post.pathname %>">
+          <h2>post.title</h2>
+          <% if(post.summary) { %>
+            <p><%= post.summary %></p>
+          <% } else { %>
+            <p><%= post.description %></p>
+          <% } %>
+        </a>
+      <% }); %>
+    </main>
+  </body>
+</html>
