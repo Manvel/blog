@@ -5,6 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cmints --static",
+    "deploy": "cmints --static --deploy",
+    "start": "cmints --start",
+    "dev": "cmints --start --no-cache --dev"
   },
   "repository": {
     "type": "git",
