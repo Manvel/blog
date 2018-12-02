@@ -1,0 +1,18 @@
+{
+  "name": "blog",
+  "version": "0.5.0",
+  "description": "saroyanm blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manvel/blog.git"
+  },
+  "author": "Manvel Saroyan",
+  "license": "MIT",
+  "dependencies": {
+    "cmints": "^0.8.1"
+  }
+}
