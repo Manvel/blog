@@ -1,0 +1,15 @@
+/* Regular */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url("../fonts/roboto/400/latin.woff") format('woff2');
+}
+/* Bold */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url("../fonts/roboto/700/latin.woff") format('woff2');
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImlucHV0Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFDQTtFQUNFLGFBQWEsUUFBYjtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxLQUFLLE1BQU0sV0FBVyxNQUFNLHVCQUF1QixrQ0FBa0MsT0FBTyxRQUE1Rjs7O0FBSUY7RUFDRSxhQUFhLFFBQWI7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0EsS0FBSyxNQUFNLGdCQUFnQixNQUFNLG9CQUFvQixrQ0FBa0MsT0FBTyxRQUE5RiJ9 */
