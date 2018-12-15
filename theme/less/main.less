@@ -21,10 +21,6 @@ header
     color: #6d6d6d;
     font-size: 14px;
   }
-  .social img
-  {
-    width: 30px;
-  }
   p:not(:last-of-type), h1
   {
     margin-bottom: 10px;
@@ -41,6 +37,62 @@ header
   margin-top: 10px;
   display: flex;
   align-items: center;
+}
+
+.social img
+{
+  width: 30px;
+}
+
+#author
+{
+  #avatar
+  {
+    width: 30px;
+    height: 30px;
+  }
+  h1
+  {
+    img
+    {
+      vertical-align: middle;
+      text-align: right;
+    }
+    justify-content: space-between;
+    display: flex;
+    font-size: 26px;
+  }
+  p
+  {
+    margin-top: 5px;
+  }
+  .social img
+  {
+    width: 20px;
+  }
+}
+
+.flex-wrapper
+{
+  display: flex;
+}
+
+.post
+{
+  main, aside
+  {
+    display: inline-block;
+    vertical-align: top;
+  }
+  main
+  {
+    max-width: 400px;
+  }
+  aside
+  {
+    width: 130px;
+    margin: 40px 0 0 60px;
+  }
 }
 
 article
@@ -72,6 +124,14 @@ article
   }
   margin-top: 40px;
   font-size: 30px;
+}
+
+.post
+{
+  h2, h3, h4
+  {
+    margin-top: 50px;
+  }
 }
 
 #avatar

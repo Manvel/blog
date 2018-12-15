@@ -9,9 +9,9 @@
   </head>
   <body>
     <header>
-     <div>
-      <a href="/"><img id="avatar" src="images/avatar.png" alt="Avatar photo"></a>
-     </div>
+      <div>
+        <a href="/"><img id="avatar" src="images/avatar.png" alt="Avatar photo"></a>
+      </div>
       <div>
         <p class="head-blog">Blog by</p>
         <h1>Manvel Saroyan</h1>
@@ -34,11 +34,7 @@
           <% } else { %>
             <p><%= post.description %></p>
           <% } %>
-        <footer>
-          <time>Dec 4, 2018</time>
-          <span class="separator">|</span>
-          <em>css, html</em>
-        </footer>
+          <% include _footer %>
        </article>
       <% }); %>
     </main>

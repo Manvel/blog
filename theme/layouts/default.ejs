@@ -5,15 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
   </head>
-  <body>
-    <header>
-      <div>
-        <h1><%= page.header %></h1>
-      </div>
-    </header>
-    <main>
-      <%- page.body %>
-    </main>
+  <body class="post">
+      <main>
+        <article>
+          <h1><%= page.title %></h1>
+          <% include _footer %>
+          <%- page.body %>
+        </article>
+      </main>
+      <aside>
+        <section id="author">
+          <div>
+            <h1>Author <img id="avatar" src="images/avatar.png" alt="Avatar photo"></h1>
+            <p>Manvel Saroyan</p>
+          </div>
+          
+          <p>
+            <% social.forEach((social) => { %>
+              <a href="/" class="social"><img src="<%= social.image %>" alt="<%= social.name %> logo"></a>
+            <% }); %>
+          </p>
+        </section>
+      </aside>
   </body>
 </html>

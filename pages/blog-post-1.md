@@ -6,8 +6,6 @@ header: CMintS starter
 type: post
 ---
 
-## Happy new blog
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Sit amet mattis vulputate enim nulla. Nisi vitae suscipit tellus mauris a diam maecenas. Dictum fusce ut placerat orci nulla pellentesque dignissim enim. 
 
 Ultrices sagittis orci a scelerisque purus. Tempus iaculis urna id volutpat lacus laoreet. Congue quisque egestas diam in arcu. Quam nulla porttitor massa id neque aliquam vestibulum morbi. A diam maecenas sed enim ut sem viverra aliquet. Et netus et malesuada fames ac turpis egestas maecenas. Sagittis nisl rhoncus mattis rhoncus urna neque viverra.
