@@ -1,0 +1,72 @@
+aside
+{
+  .author
+  {
+    .avatar
+    {
+      width: 30px;
+      height: 30px;
+    }
+    h1
+    {
+      img
+      {
+        vertical-align: middle;
+        text-align: right;
+      }
+      justify-content: space-between;
+      display: flex;
+      font-size: 26px;
+    }
+    p
+    {
+      margin-top: 5px;
+    }
+    .social img
+    {
+      width: 20px;
+    }
+  }
+}
+
+header
+{
+  .author
+  {
+    .avatar
+    {
+      width: 100px;
+    }
+    .head-blog
+    {
+      color: @foreground-light;
+      font-size: 14px;
+    }
+    p:not(:last-of-type), h1
+    {
+      margin-bottom: 10px;
+    }
+    > div
+    {
+      margin-inline-end: 20px;
+      -webkit-margin-end: 20px;
+    }
+    h1
+    {
+      font-size: 18px;
+    }
+    .social img
+    {
+      width: 30px;
+    }
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.avatar
+{
+  border-radius: 50%;
+  border: solid 1px black;
+}
