@@ -9,33 +9,24 @@
   </head>
   <body>
     <header>
-      <div>
-        <a href="/"><img id="avatar" src="images/avatar.png" alt="Avatar photo"></a>
-      </div>
-      <div>
-        <p class="head-blog">Blog by</p>
-        <h1>Manvel Saroyan</h1>
-        <p>
-          <% social.forEach((social) => { %>
-            <a href="/" class="social"><img src="<%= social.image %>" alt="<%= social.name %> logo"></a>
-          <% }); %>
-        </p>
-      </div>
+      <% include _author-blog %>
     </header>
     <main>
       <% const posts = site.queryPages((data) => data.type == "post") %>
       <% posts.forEach(function(post) { %>
-       <article>
-        <a href="<%- post.pathname %>">
-          <h2><%= post.title %></h2>
-        </a>
+        <article>
+          <a href="<%- post.pathname %>">
+            <h2><%= post.title %></h2>
+          </a>
           <% if(post.summary) { %>
             <p><%= post.summary %></p>
           <% } else { %>
             <p><%= post.description %></p>
           <% } %>
-          <% include _footer %>
-       </article>
+          <footer>
+            <% include _meta-post %>
+          </footer>
+        </article>
       <% }); %>
     </main>
   </body>
