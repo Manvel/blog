@@ -15,7 +15,7 @@
       <% const posts = site.queryPages((data) => data.type == "post") %>
       <% posts.forEach(function(post) { %>
         <article>
-          <a href="<%- post.pathname %>">
+          <a href="<%- post.pathname %>" class="post-title">
             <h2><%= post.title %></h2>
           </a>
           <% if(post.summary) { %>
@@ -24,7 +24,7 @@
             <p><%= post.description %></p>
           <% } %>
           <footer>
-            <% include _meta-post %>
+            <%- include("_meta-post", {page: post}) %>
           </footer>
         </article>
       <% }); %>

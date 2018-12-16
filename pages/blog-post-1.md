@@ -5,6 +5,7 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac 
 header: CMintS starter
 author: saroyanm
 type: post
+tags: [css, html]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Sit amet mattis vulputate enim nulla. Nisi vitae suscipit tellus mauris a diam maecenas. Dictum fusce ut placerat orci nulla pellentesque dignissim enim. 

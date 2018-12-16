@@ -1,5 +1,11 @@
 <div class="meta-post">
   <time>Dec 4, 2018</time>
-  <span class="separator">|</span>
-  <em>css, html</em>
+  <% if (page.tags) { %>
+    <span class="separator">|</span>
+     <em>
+      <% page.tags.forEach((tag, index) => { %>
+        <a href="tag/<%- tag %>"><%- tag %></a><% if(index != page.tags.length -1) {%>, <% } %>
+      <% }); %>
+     </em>
+  <% } %>
 </div>

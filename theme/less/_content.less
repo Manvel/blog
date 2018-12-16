@@ -14,8 +14,12 @@ article
 {
   a
   {
-    color: inherit;
+    &:hover:not(.post-title)
+    {
+      text-decoration: underline;
+    }
     text-decoration: none;
+    color: inherit;
     display: inline-block;
   }
   h2
@@ -24,9 +28,9 @@ article
   }
   p
   {
-    line-height: 120%;
+    line-height: 26px;
     font-size: 16px;
-    margin-top: 22px;
+    margin-top: 24px;
   }
   .meta-post
   {
@@ -34,7 +38,7 @@ article
     {
       color: @link;
     }
-    margin-top: 16px;
+    margin-top: 14px;
     font-size: 12px;
   }
   margin-top: 40px;
