@@ -1,0 +1,32 @@
+nav
+{
+  margin: 50px -20px 0 -20px;
+  border-top: 1px solid @foreground;
+  border-bottom: 1px solid @foreground;
+  ul
+  {
+    li
+    {
+      a
+      {
+        &:hover
+        {
+          text-decoration: underline;
+        }
+        text-decoration: none;
+        color: @foreground;
+      }
+      display: inline-block;
+      font-size: 24px;
+      font-weight: 700;
+      padding: 20px;
+      text-transform: uppercase;
+    }
+    list-style: none;
+  }
+}
+
+.post nav
+{
+  margin-top: 20px;
+}

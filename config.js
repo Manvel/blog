@@ -43,8 +43,23 @@ const shareButtons = [
 
 const domain = "https://manvel.github.io/blog/";
 
+const navigations = [
+  {
+    "name": "Blog",
+    "path": "/"
+  },
+  {
+    "name": "Projects",
+    "path": "/tag/project"
+  },
+  {
+    "name": "About",
+    "path": "/about"
+  }
+];
+
 const templateData = {
-  authors, shareButtons, domain
+  authors, shareButtons, domain, navigations
 };
 
 module.exports = {templateData};

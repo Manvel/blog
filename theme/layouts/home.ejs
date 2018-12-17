@@ -10,6 +10,7 @@
   <body>
     <header>
       <% include _author-blog %>
+      <% include _navigation %>
     </header>
     <main>
       <% const posts = site.queryPages((data) => data.type == "post") %>
