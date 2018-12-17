@@ -13,6 +13,11 @@
           <h1><%= page.title %></h1>
           <% include _meta-post %>
           <%- page.body %>
+          <h2>Share:
+            &nbsp; <% shareButtons.forEach(({name, image, path}) => { %>
+              <a href="<%= path %><%= domain %><%= page.pathname %>" class="social"><img src="<%= image %>"></a>
+            <% }); %>
+          </h2>
         </article>
       </main>
       <aside>

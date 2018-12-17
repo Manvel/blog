@@ -23,8 +23,28 @@ const authors = {
   }
 };
 
+const shareButtons = [
+  {
+    "name": "facebook",
+    "image": "images/social/facebook.svg",
+    "path": "https://www.facebook.com/sharer/sharer.php?u="
+  },
+  {
+    "name": "twitter",
+    "image": "images/social/twitter.svg",
+    "path": "https://twitter.com/home?status="
+  },
+  {
+    "name": "Google Plus",
+    "image": "images/social/gplus.svg",
+    "path": "https://plus.google.com/share?url="
+  }
+];
+
+const domain = "https://manvel.github.io/blog/";
+
 const templateData = {
-  authors
+  authors, shareButtons, domain
 };
 
 module.exports = {templateData};
