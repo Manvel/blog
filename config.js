@@ -23,6 +23,11 @@ const authors = {
   }
 };
 
+const favicon = "images/favicon.png";
+const image = "images/manvel.png";
+const title = "Manvel";
+const description = "I wite here about stuff I do. Only good stuff ;)";
+
 const shareButtons = [
   {
     "name": "facebook",
@@ -59,7 +64,9 @@ const navigations = [
 ];
 
 const templateData = {
-  authors, shareButtons, domain, navigations
+  site: {
+    authors, shareButtons, domain, navigations, favicon, image, title, description
+  }
 };
 
 module.exports = {templateData};
