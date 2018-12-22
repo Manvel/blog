@@ -1,8 +1,14 @@
+const domain = "https://manvel.me/";
+const favicon = "images/favicon.png";
+const image = "images/manvel.png";
+const title = "Manvel";
+const description = "I wite here about stuff I do. Only good stuff ;)";
 
 const authors = {
   "saroyanm": {
     "name": "Manvel Saroyan",
     "avatar": "images/authors/manvel.png",
+    "twitter": "@saroyanm",
     "social": [
       {
         "name": "github",
@@ -23,11 +29,6 @@ const authors = {
   }
 };
 
-const favicon = "images/favicon.png";
-const image = "images/manvel.png";
-const title = "Manvel";
-const description = "I wite here about stuff I do. Only good stuff ;)";
-
 const shareButtons = [
   {
     "name": "facebook",
@@ -45,8 +46,6 @@ const shareButtons = [
     "path": "https://plus.google.com/share?url="
   }
 ];
-
-const domain = "https://manvel.github.io/blog/";
 
 const navigations = [
   {

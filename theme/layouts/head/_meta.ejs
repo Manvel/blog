@@ -2,12 +2,20 @@
 <% const description = page.description ? page.description : site.description; %>
 <% const image = page.image ? page.image : site.image; %>
 
-<title><%= title %></title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="<%= site.favicon %>">
 
+<title><%= title %></title>
+<meta name="description" content="<%=  description %>">
 <!-- OG -->
 <meta property="og:title" content="<%= title %>">
 <meta content="<%=  description %>" property="og:description">
 <meta property="og:image" content="<%= image %>">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<% if (page.author) { %>
+<meta name="twitter:creator" content="<%= site.authors[page.author].twitter %>">
+<% } %>
+<meta name="twitter:image" content="<%= image %>">
