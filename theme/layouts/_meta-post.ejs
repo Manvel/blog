@@ -1,5 +1,7 @@
 <div class="meta-post">
-  <time>Dec 4, 2018</time>
+  <% if (page.date) { %>
+    <time><%- new Date(page.date).toLocaleDateString("en-UK", {day: "numeric", month: "short", year: "numeric"}) %></time>
+  <% } %>
   <% if (page.tags) { %>
     <span class="separator">|</span>
      <em>

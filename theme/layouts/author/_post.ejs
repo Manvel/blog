@@ -6,8 +6,6 @@
   </div>
 
   <p>
-    <% author.social.forEach((social) => { %>
-      <a href="<%= social.paths %>" class="social"><img src="<%= social.image %>" alt="<%= social.name %> logo"></a>
-    <% }); %>
+    <% include _social %>
   </p>
 </section>

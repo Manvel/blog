@@ -7,9 +7,7 @@
     <p class="head-blog">Blog by</p>
     <h1><%= author.name %></h1>
     <p>
-      <% author.social.forEach((social) => { %>
-        <a href="<%= social.paths %>" class="social"><img src="<%= social.image %>" alt="<%= social.name %> logo"></a>
-      <% }); %>
+      <% include _social %>
     </p>
   </div>
 </div>

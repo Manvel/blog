@@ -9,11 +9,11 @@
   </head>
   <body>
     <header>
-      <% include _author-blog %>
+      <% include author/_blog %>
       <% include _navigation %>
     </header>
     <main>
-      <% const posts = site.queryPages((data) => data.type == "post") %>
+      <% const posts = site.queryPages((data) => data.type == "post").sort((a, b) => new Date(b.date) - new Date(a.date)) %>
       <% posts.forEach(function(post) { %>
         <article>
           <a href="<%- post.pathname %>" class="post-title">
