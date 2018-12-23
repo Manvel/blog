@@ -5,12 +5,11 @@
   </head>
   <body>
     <header>
-      <% include author/_blog %>
       <% include _navigation %>
     </header>
     <main>
       <% page.body %>
-      <% const posts = site.queryPages((data) => data.type == "post").sort((a, b) => new Date(b.date) - new Date(a.date)) %>
+      <% const posts = site.queryPages((data) => data.category == "project").sort((a, b) => new Date(b.date) - new Date(a.date)) %>
       <% posts.forEach(function(post) { %>
         <article>
           <a href="<%- post.pathname %>" class="post-title">

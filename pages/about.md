@@ -9,5 +9,5 @@ developing [Adblock Plus](https://adblockplus.org/) Full-time, but the rest of
 the time I sit in my cave working on another personal project, I love building
 stuff and also making marketing for them. The project choise can be anything,
 starting from a Privacy Explanatory Plugin, Automation tool, to CMS or just to a
-Fuck Yeah Button. You can learn more about my projects in the [Projects](/)
+FuckYeah Button. You can learn more about my projects in the [Projects](/)
 section.

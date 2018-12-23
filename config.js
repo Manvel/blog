@@ -1,28 +1,28 @@
 const domain = "https://manvel.me/";
-const favicon = "images/favicon.png";
-const image = "images/manvel.png";
+const favicon = "/images/favicon.png";
+const image = "/images/manvel.png";
 const title = "Manvel";
 const description = "I wite here about stuff I do.";
 
 const authors = {
   "saroyanm": {
     "name": "Manvel Saroyan",
-    "avatar": "images/authors/manvel.png",
+    "avatar": "/images/authors/manvel.png",
     "twitter": "@saroyanm",
     "social": [
       {
         "name": "github",
-        "image": "images/social/github.svg",
+        "image": "/images/social/github.svg",
         "path": "https://github.com/Manvel"
       },
       {
         "name": "linkedin",
-        "image": "images/social/linkedin.svg",
+        "image": "/images/social/linkedin.svg",
         "path": "https://www.linkedin.com/in/saroyanm"
       },
       {
         "name": "twitter",
-        "image": "images/social/twitter.svg",
+        "image": "/images/social/twitter.svg",
         "path": "https://twitter.com/saroyanm"
       }
     ]
@@ -32,17 +32,17 @@ const authors = {
 const shareButtons = [
   {
     "name": "facebook",
-    "image": "images/social/facebook.svg",
+    "image": "/images/social/facebook.svg",
     "path": "https://www.facebook.com/sharer/sharer.php?u="
   },
   {
     "name": "twitter",
-    "image": "images/social/twitter.svg",
+    "image": "/images/social/twitter.svg",
     "path": "https://twitter.com/home?status="
   },
   {
     "name": "Google Plus",
-    "image": "images/social/gplus.svg",
+    "image": "/images/social/gplus.svg",
     "path": "https://plus.google.com/share?url="
   }
 ];
@@ -54,7 +54,7 @@ const navigations = [
   },
   {
     "name": "Projects",
-    "path": "/tag/project"
+    "path": "/projects"
   },
   {
     "name": "About",
