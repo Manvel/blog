@@ -2,7 +2,7 @@ const domain = "https://manvel.me/";
 const favicon = "images/favicon.png";
 const image = "images/manvel.png";
 const title = "Manvel";
-const description = "I wite here about stuff I do. Only good stuff ;)";
+const description = "I wite here about stuff I do.";
 
 const authors = {
   "saroyanm": {

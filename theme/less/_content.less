@@ -19,11 +19,11 @@ article
       text-decoration: underline;
     }
     text-decoration: none;
-    color: inherit;
-    display: inline-block;
+    color: @link;
   }
   h2
   {
+    color: @foreground;
     font-size: 24px;
   }
   p
@@ -31,6 +31,11 @@ article
     line-height: 26px;
     font-size: 16px;
     margin-top: 24px;
+  }
+  img
+  {
+    float: left;
+    padding: 10px;
   }
   .meta-post
   {
@@ -40,6 +45,15 @@ article
     }
     margin-top: 14px;
     font-size: 12px;
+  }
+  .social
+  {
+    img
+    {
+      padding: 0px;
+    }
+    vertical-align: middle;
+    display: inline-block;
   }
   margin-top: 40px;
   font-size: 30px;
