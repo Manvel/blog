@@ -1,6 +1,7 @@
 ---
 title: Chromium browser automation
 description: Chromium Browser Automation(CBA) is a automation system for chrome browser which is designed to help users with automation of daily routine work
+image: images/projects/cba/logo.png
 author: saroyanm
 date: 2018-12-23
 type: post

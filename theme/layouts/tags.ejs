@@ -5,11 +5,11 @@
   </head>
   <body>
     <header>
-      <% include author/_blog %>
       <% include _navigation %>
     </header>
     <main>
-      <% const posts = site.queryPages((data) => data.type == "post").sort((a, b) => new Date(b.date) - new Date(a.date)) %>
+      <% const tag = page.pathname.replace("tag/", "").toLowerCase(); %>
+      <% const posts = site.queryPages((data) => data.tags && data.tags.includes(tag)).sort((a, b) => new Date(b.date) - new Date(a.date)) %>
       <%- include("_load-posts", {posts}) %>
     </main>
   </body>

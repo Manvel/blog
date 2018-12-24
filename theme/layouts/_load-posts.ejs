@@ -1,0 +1,15 @@
+<% posts.forEach(function(post) { %>
+  <article>
+    <a href="<%- post.pathname %>" class="post-title">
+      <h2><%= post.title %></h2>
+    </a>
+    <% if(post.summary) { %>
+      <p><%= post.summary %></p>
+    <% } else { %>
+      <p><%= post.description %></p>
+    <% } %>
+    <footer>
+      <%- include("_meta-post", {page: post}) %>
+    </footer>
+  </article>
+<% }); %>

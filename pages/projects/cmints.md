@@ -1,6 +1,7 @@
 ---
 title: CMintS
 description: CMintS is a CMS and Static Site Generator that has been implemented with the Internationalization in mind. 
+image: images/projects/cmints/logo-small.png
 author: saroyanm
 date: 2018-12-23
 type: post
