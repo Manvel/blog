@@ -1,4 +1,5 @@
 <% posts.forEach(function(post) { %>
+  <% if (post.pathname.startsWith("_") && !site.draft) return; %>
   <article>
     <a href="<%- post.pathname %>" class="post-title">
       <h2><%= post.title %></h2>

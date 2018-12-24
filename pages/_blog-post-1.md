@@ -5,6 +5,7 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac 
 header: CMintS starter
 author: saroyanm
 date: 2018-12-31
+draft: true
 type: post
 tags: [css, html]
 ---

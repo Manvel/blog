@@ -64,10 +64,12 @@ const navigations = [
 ];
 
 require("./tags").createTags(tags);
+const {draft} = require("minimist")(process.argv.slice(2));
 
 const templateData = {
   site: {
-    authors, shareButtons, domain, navigations, favicon, image, title, description
+    authors, shareButtons, domain, navigations, favicon, image, title,
+    description, draft
   }
 };
 
