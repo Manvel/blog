@@ -10,6 +10,7 @@
       <main>
         <article>
           <h1><%= page.title %></h1>
+          <% if (page.subtitle) { %> <small class="subtitle"><%= page.subtitle %></small> <% } %>
           <% include _meta-post %>
           <%- page.body %>
           <% if (!page.noshare) { %>

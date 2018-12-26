@@ -5,7 +5,7 @@ body
   padding: 20px;
 }
 
-h1, h2, h3
+h1, h2, h3, strong
 {
   font-weight: bold;
 }
@@ -21,10 +21,20 @@ article
     text-decoration: none;
     color: @link;
   }
+  h1
+  {
+    font-size: 2rem;
+    line-height: 1.5rem;
+  }
   h2
   {
     color: @foreground;
     font-size: 24px;
+  }
+  h3
+  {
+    color: @foreground;
+    font-size: 20px;
   }
   p
   {
@@ -34,17 +44,30 @@ article
   }
   img
   {
+    max-width: 80%;
     float: left;
     padding: 10px;
+  }
+  iframe
+  {
+    margin-top: 1.5rem;
   }
   ul
   {
     margin-top: 1rem;
+    list-style-position: outside;
+    padding-left: 1.5rem;
   }
   li
   {
+    margin-top: 0.5rem;
+    line-height: 1.6rem;
     font-size: 1rem;
-    list-style-position: inside;
+  }
+  .subtitle
+  {
+    font-size: 16px;
+    font-weight: bold;
   }
   .meta-post
   {
