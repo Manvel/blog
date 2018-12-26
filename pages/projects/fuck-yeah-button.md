@@ -1,7 +1,7 @@
 ---
 title: Fuck Yeah Button
 subtitle: (or how did I spend my summer)
-description: Fuck Yeah Button, for Fuck Yeah Sound and Animation! Turn on the volume to the top - hit the button YEAH!
+description: This happens to be the most silly project I have ever worked on and it wouldn't have happened if...
 image: images/projects/cba/logo.png
 author: saroyanm
 date: 2018-12-26
@@ -65,6 +65,6 @@ more voices, we also end up adding GIFs and counter to the project.
     title="Inline Frame Example"
     width="411"
     height="731"
-    src="https://fuckyeahbutton.org/" style="max-width: 100%">
+    src="https://fuckyeahbutton.org/">
 </iframe>
 
