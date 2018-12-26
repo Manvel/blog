@@ -14,6 +14,14 @@ article
 {
   a
   {
+    h2
+    {
+      &:hover
+      {
+        filter: contrast(200%);
+      }
+      transition: filter 0.2s ease-out;
+    }
     &:hover:not(.post-title)
     {
       text-decoration: underline;
