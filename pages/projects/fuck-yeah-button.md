@@ -1,7 +1,7 @@
 ---
 title: Fuck Yeah Button
 subtitle: (or how did I spend my summer)
-description: This happens to be the most silly project I have ever worked on and it wouldn't have happened if...
+description: Story of the Fuck Yeah Button creation. This happens to be the most silly project I have ever worked on and it wouldn't have happened if, not...
 image: images/projects/fyeah/logo.png
 author: saroyanm
 date: 2018-12-26
