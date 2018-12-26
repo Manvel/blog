@@ -38,7 +38,7 @@ people liked it!
 ## More voices
 
 <p>
-  <img src="/images/people/job-diego-arthur.jpg" style="float: none">
+  <img src="/images/people/job-diego-arthur.jpg" style="max-width: 90%; float: none">
 </p>
 
 In the first version it was mostly Diego's voice and some auto-generated sounds,
@@ -65,6 +65,6 @@ more voices, we also end up adding GIFs and counter to the project.
     title="Inline Frame Example"
     width="411"
     height="731"
-    src="https://fuckyeahbutton.org/">
+    src="https://fuckyeahbutton.org/" style="max-width: 100%">
 </iframe>
 
