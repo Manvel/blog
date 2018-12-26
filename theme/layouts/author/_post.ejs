@@ -1,11 +1,21 @@
-<section class="author">
+<footer class="author-share">
   <% const author = site.authors[page.author]; %>
-  <div>
-    <h1>Author <img class="avatar" src="<%= author.avatar %>" alt="Avatar photo"></h1>
-    <p><%= author.name %></p>
+  <img class="avatar" src="<%= author.avatar %>" alt="Avatar photo">
+  <div class="author">
+    <% if (page.follow) { %>
+      <h2>Follow author</h2>
+      <p><% include _social %></p>
+    <% } else { %>
+      <h2>Post author</h2>
+      <p><a href="<%= author.about %>"><%= author.name %></a></p>
+    <% } %>
   </div>
-
-  <p>
-    <% include _social %>
-  </p>
-</section>
+  <div class="share">
+    <h2>Share post</h2>
+    <p>
+      <% site.shareButtons.forEach(({name, image, path}) => { %>
+        <a href="<%= path %><%= site.domain %><%= page.pathname %>" target="_blank" class="social"><img src="<%= image %>"></a>
+      <% }); %>
+    </p>
+  </div>
+</footer>

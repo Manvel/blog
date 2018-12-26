@@ -7,27 +7,16 @@
     <header>
       <% include _navigation %>
     </header>
-    <div id="main-wrapper">
-      <main>
-        <article>
-          <h1><%= page.title %></h1>
-          <% if (page.subtitle) { %> <small class="subtitle"><%= page.subtitle %></small> <% } %>
-          <% include _meta-post %>
-          <%- page.body %>
-          <% if (!page.noshare) { %>
-            <h2>Share:
-              &nbsp; <% site.shareButtons.forEach(({name, image, path}) => { %>
-                <a href="<%= path %><%= site.domain %><%= page.pathname %>" target="_blank" class="social"><img src="<%= image %>"></a>
-              <% }); %>
-            </h2>
-          <% } %>
-        </article>
-      </main>
-      <aside>
+    <main>
+      <article>
+        <h1><%= page.title %></h1>
+        <% if (page.subtitle) { %> <small class="subtitle"><%= page.subtitle %></small> <% } %>
+        <% include _meta-post %>
+        <%- page.body %>
         <% if (page.author) { %>
           <% include author/_post %>
         <% } %>
-      </aside>
-    </div>
+      </article>
+    </main>
   </body>
 </html>

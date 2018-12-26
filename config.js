@@ -10,6 +10,7 @@ const authors = {
     "name": "Manvel Saroyan",
     "avatar": "/images/authors/manvel.png",
     "twitter": "@saroyanm",
+    "about": "/about",
     "social": [
       {
         "name": "github",

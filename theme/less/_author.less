@@ -1,32 +1,41 @@
-aside
+footer.author-share
 {
-  .author
+  .avatar
   {
-    .avatar
+    background-color: #FFF;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    top: -25px;
+    margin-left: -25px;
+  }
+  .share
+  {
+    img
     {
-      width: 30px;
-      height: 30px;
-    }
-    h1
-    {
-      img
-      {
-        vertical-align: middle;
-        text-align: right;
-      }
-      justify-content: space-between;
-      display: flex;
-      font-size: 26px;
+      width: 25px;
     }
     p
     {
-      margin-top: 5px;
-    }
-    .social img
-    {
-      width: 20px;
+      text-align: right;
     }
   }
+  h2
+  {
+    font-size: 18px;
+  }
+  p
+  {
+    margin-top: 5px;
+  }
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 100%;
+  border-top: 1px solid @foreground;
+  position: relative;
 }
 
 header
