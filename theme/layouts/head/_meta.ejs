@@ -18,4 +18,6 @@
 <% if (page.author) { %>
 <meta name="twitter:creator" content="<%= site.authors[page.author].twitter %>">
 <% } %>
-<meta name="twitter:image" content="<%= image %>">
+<meta name="twitter:image" content="<%= site.domain %><%= image %>">
+<meta name="twitter:title" content="<%= title %>">
+<meta name="twitter:description" content="<%= description %>">
