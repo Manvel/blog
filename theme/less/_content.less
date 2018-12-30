@@ -103,8 +103,20 @@ article
 
 .post
 {
+  img
+  {
+    &.full-width
+    {
+      max-width: 90%;
+      float: none;
+    }
+  }
   h2, h3, h4
   {
+    a
+    {
+      color: @foreground;
+    }
     margin-top: 1.5rem;
   }
 }

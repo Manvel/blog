@@ -38,7 +38,7 @@ people liked it!
 ## More voices
 
 <p>
-  <img src="/images/people/job-diego-arthur.jpg" style="max-width: 90%; float: none">
+  <img src="/images/people/job-diego-arthur.jpg" class="full-width">
 </p>
 
 In the first version it was mostly Diego's voice and some auto-generated sounds,
@@ -61,8 +61,7 @@ more voices, we also end up adding GIFs and counter to the project.
 
 <a href="https://fuckyeahbutton.org/" target="_blank">Navigate to the Fuck Yeah button:</a> or hit it below.
 
-<iframe id="inlineFrameExample"
-    title="Inline Frame Example"
+<iframe
     width="411"
     height="731"
     src="https://fuckyeahbutton.org/">
