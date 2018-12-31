@@ -1,6 +1,7 @@
 <% const title = page.title ? page.title : site.title; %>
 <% const description = page.description ? page.description : site.description; %>
 <% const image = page.image ? page.image : site.image; %>
+<% const twitterCard = page.twitterCard ? page.twitterCard : "summary" %>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +15,7 @@
 <meta property="og:image" content="<%= site.domain %><%= image %>">
 
 <!-- Twitter -->
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="<%= twitterCard %>">
 <% if (page.author) { %>
 <meta name="twitter:creator" content="<%= site.authors[page.author].twitter %>">
 <% } %>
