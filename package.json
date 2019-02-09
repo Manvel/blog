@@ -17,6 +17,6 @@
   "author": "Manvel Saroyan",
   "license": "MIT",
   "dependencies": {
-    "cmints": "^0.8.7"
+    "cmints": "^0.9.9"
   }
 }
