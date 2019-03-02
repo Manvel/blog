@@ -5,7 +5,7 @@ image: images/projects/cmints/logo-small.png
 author: saroyanm
 date: 2019-02-23
 type: post
-tags: [nodejs, ssg]
+tags: [ssg]
 ---
 
 Nowdays there are a lot of static site generators(SSG) as you can see from the
