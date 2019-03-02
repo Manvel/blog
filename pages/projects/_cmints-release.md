@@ -75,25 +75,21 @@ theme
     └── main.js
 ```
 
-
-**Why EJS:** Switching from using one templating engine to another it also requires switching
-mindset and refreshing memory about the templating engine syntax, the only time
-I'm not doing that is when I'm using EJS, as it's using JavaScript syntax, which
-makes the usage of EJS quite simple especially when one writes JavaScript almost
-every day. [Learn more about Using EJS in CMintS themes](https://cmints.io/documentation/themes/ejs).
-
-**Why LESS:** There were never preference between LESS or SASS, as for me they both look
-identical, but as LESS is implemented in JavaScript I thought I would go for
-that one considering that I'm developing a CMS using NodeJS. In addition It's
-quite easy to control the CSS generation and even add minification using CMintS,
-it's also something a lot of SSGs are lacking, was surprising that having a
-minification configuration out of the box is not as common as I thought. [Learn more about Using LESS in CMintS themes](https://cmints.io/documentation/themes/less).
-
-**JS Modules:** Modularization of Layout and CSS almost always leaves importance of JavaScript
-modularization for the theme and layout creation unnoticed, while I want to
-write a modular cross-browser CSS I would like to write Modular JS as well and
-with CMintS you can do that, same as with the LESS it comes with the
-minification and other helpful magic like source map inclusion and etc. [Learn more about Using JS Modules in CMintS themes](https://cmints.io/documentation/themes/js-modules)
+- [/theme/layout](https://cmints.io/documentation/themes/ejs) (**EJS**) - CMintS
+  is using EJS as a templating engine for creating layouts. EJS is a simple
+  templating language that lets you generate HTML markup while writing plain
+  JavaScript.
+- [/theme/less](https://cmints.io/documentation/themes/less) (**LESS**) - 
+  `.less` files are being processed into the `public/css` directory, only
+  filenames starting with "_" are not compiled into the target directory, but
+  yet they can be used by other less files. You can also [setup processing options/minification in the config.js](https://cmints.io/documentation/getting-started/configuration#lessoptions).
+- [/theme/js](https://cmints.io/documentation/themes/js-modules) (**Browserify**) -
+  CMintS is using Node.js-style modules and makes Theme functionality
+  implementation modular out of the box. JavaScript files that are placed in
+  `theme/js` directory and don't have starting `_` in the filename are being
+  compiled into the `public/js` directory. You can also [setup compilation
+  options/minification in the
+  config.js](https://cmints.io/documentation/getting-started/configuration#jsmoduleoptions)
 
 ### Multi-language
 
