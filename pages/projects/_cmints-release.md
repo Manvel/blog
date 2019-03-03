@@ -3,20 +3,14 @@ title: CMintS
 description: CMintS is a CMS and Static Site Generator that has been implemented with the Internationalization in mind. 
 image: images/projects/cmints/logo-small.png
 author: saroyanm
-date: 2019-02-23
+date: 2019-03-09
 css: [highlight.css]
 type: post
 category: project
 tags: [nodejs, ssg]
 ---
 
-Nowdays there are a lot of static site generators(SSG) as you can see from the
-[staticgen.com](https://www.staticgen.com/) and
-[staticsitegenerators.net](https://staticsitegenerators.net/) lists, but yet
-developers are creating more and more, seems like there shouldn't be need for
-another SSG - that's how I were thinking couple of years ago.
-
-In mid 2016 I was searching for a SSGs that would work perfectly both for my
+In mid 2017 I was searching for a SSGs that would work perfectly both for my
 single and multi-language websites, but I was surprised not being able to find
 one that wouldn't require me adding bunch of 3-rd party plugins, do a lof of
 customization work and have a scalable i18n implementation.
