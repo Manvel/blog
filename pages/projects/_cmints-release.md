@@ -4,6 +4,7 @@ description: CMintS is a CMS and Static Site Generator that has been implemented
 image: images/projects/cmints/logo-small.png
 author: saroyanm
 date: 2019-02-23
+css: [highlight.css]
 type: post
 category: project
 tags: [nodejs, ssg]
@@ -42,7 +43,7 @@ You can also find Single and Multi lanuguage website starters at [https://single
 
 [Structure of the CMintS](https://cmints.io/en/documentation/getting-started/structure) is quite straightforward:
 
-```
+```css
 ├── public
 ├── locales
 ├── pages
@@ -57,7 +58,7 @@ You can also find Single and Multi lanuguage website starters at [https://single
 - [config.js](https://cmints.io/en/documentation/getting-started/configuration) - Here you can store all your static content, images, CSS and etc.
 
 ## Layout creation
-```
+```css
 theme
 ├── layouts
 │   ├── partials
@@ -93,7 +94,7 @@ theme
 
 ## Pages
 
-```
+```css
 pages
 ├── about
 │   └── team.md
@@ -119,7 +120,7 @@ You can also use [Front
 Matter](https://cmints.io/documentation/pages/frontmatter) to specify metadata
 for pages:
 
-```
+```yaml
 ---
 title: Front Matter
 description: Front Matter is a powerful tool for adding metadata to the pages

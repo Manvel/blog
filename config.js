@@ -64,6 +64,13 @@ const navigations = [
   }
 ];
 
+const {getLanguage, highlight} = require("highlight.js");
+
+// See https://markdown-it.github.io/markdown-it/#MarkdownIt.new
+const markdownOptions = {
+  highlight: (str, lang) => (lang && getLanguage(lang)) ? highlight(lang, str).value : ""
+};
+
 require("./tags").createTags(tags);
 const {draft} = require("minimist")(process.argv.slice(2));
 
@@ -74,4 +81,4 @@ const templateData = {
   }
 };
 
-module.exports = {templateData};
+module.exports = {templateData, markdownOptions};

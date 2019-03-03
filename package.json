@@ -17,6 +17,7 @@
   "author": "Manvel Saroyan",
   "license": "MIT",
   "dependencies": {
-    "cmints": "^0.9.9"
+    "cmints": "^0.9.9",
+    "highlight.js": "^9.15.6"
   }
 }

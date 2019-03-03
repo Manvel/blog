@@ -1,4 +1,5 @@
 node_modules
 package-lock.json
 public/css/main.css
+public/css/highlight.css
 .DS_Store
