@@ -91,6 +91,49 @@ theme
   options/minification in the
   config.js](https://cmints.io/documentation/getting-started/configuration#jsmoduleoptions)
 
+## Pages
+
+```
+pages
+├── about
+│   └── team.md
+├── about.md
+├── documentation
+│   ├── getting-started
+│   │   ├── configuration.md
+│   │   ├── index.md
+│   │   └── _structure.md
+│   └── i18n
+│       ├── index.md
+│       └── markdown.md
+├── index.ejs
+└── news.md
+```
+
+The folder structure inside of the pages directory reflects actual URL path when
+the page is requested(unless a
+[permalink](https://cmints.io/documentation/pages/frontmatter#permalinks) is
+specified).
+
+You can also use [Front
+Matter](https://cmints.io/documentation/pages/frontmatter) to specify metadata
+for pages:
+
+```
+---
+title: Front Matter
+description: Front Matter is a powerful tool for adding metadata to the pages
+categories: [documentation, i18n]
+showToc: true
+---
+```
+
+Here are the pages suported by CMintS:
+
+- [Markdown(.md)](https://cmints.io/documentation/pages#markdown)
+- [HTML(.html)](https://cmints.io/documentation/pages#html)
+- [EJS(.ejs)](https://cmints.io/documentation/pages#ejs)
+
 ### Multi-language
 
 Most of the existing SSGs don't provide i18n support out of the box, or don't
