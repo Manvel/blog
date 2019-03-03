@@ -18,11 +18,10 @@ another SSG - that's how I were thinking couple of years ago.
 
 In mid 2016 I was searching for a SSGs that would work perfectly both for my
 single and multi-language websites, but I was surprised not being able to find
-one that wouldn't require me adding bunch of 3-rd party plugins or have a
-sensible i18n implementation.
+one that wouldn't require me adding bunch of 3-rd party plugins, do a lof of
+customization work and have a scalable i18n implementation.
 
-After more than 1 year of development I'm proudly announcing release of CMintS -
-the SSG I was missing, for such a long time.
+Today I'm happy to announce release of the CMintS!
 
 ## What is CMintS?
 
@@ -57,7 +56,7 @@ You can also find Single and Multi lanuguage website starters at [https://single
 - [/theme](https://cmints.io/en/documentation/themes) - theme of the website
 - [config.js](https://cmints.io/en/documentation/getting-started/configuration) - Here you can store all your static content, images, CSS and etc.
 
-## Layout creation
+## Theme
 ```css
 theme
 ├── layouts
@@ -137,3 +136,47 @@ Here are the pages suported by CMintS:
 
 ## i18n
 
+```css
+locales
+├── de
+│   ├── header.json
+│   └── news.json
+├── en
+│   ├── header.json
+│   └── news.json
+└── ru
+    ├── about
+    │   └── teams.json
+    ├── header.json
+    ├── index.json
+    └── news.json
+```
+
+Locale files hold list of the translations strings, the translation strings
+consist of stringid, message and optional description.
+
+```json
+{
+  "heading-main": {
+    "description": "Heading of the main page",
+    "message": "Заголовок"
+  }
+}
+```
+
+The source language strings can be defined in
+[pages](https://cmints.io/en/documentation/i18n/pages) or
+[theme](https://cmints.io/en/documentation/i18n/theme) layout by placing them
+inside of opening and closing curly braces:
+
+```js
+{stringId[Description] Source text}
+```
+
+Or by [defining the path](https://cmints.io/documentation/i18n/#defining-path):
+
+```
+{stringId(path)}
+```
+
+[Learn more about i18n here](https://cmints.io/documentation/i18n/)
