@@ -1,12 +1,14 @@
 ---
 title: Why use Static Site Generator(SSG)?
 description: Security, free hosting and blazing fast speed of Static Site Generators. Three reasons of choosing Static Site Generator over classic CMS.
-image: images/projects/cmints/logo-small.png
+image: images/projects/cmints/ssgs.png
 author: saroyanm
 date: 2019-02-23
 type: post
 tags: [ssg]
 ---
+
+<img src="/images/projects/cmints/ssgs.png" class="full-width">
 
 Nowdays there are a lot of static site generators(SSG) as you can see from the
 [staticgen.com](https://www.staticgen.com/) and
