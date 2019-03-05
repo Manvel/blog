@@ -20,17 +20,18 @@ Today I'm happy to announce release of the CMintS!
 ## What is CMintS?
 
 [CMintS](https://cmints.io/) is a CMS and Static Site Generator for single and
-multi-language websites creation.
+multi-language websites creation. Learn more about CMintS at
+[https://cmints.io/](https://cmints.io/). It's an open source project and every
+related repository can be found in the [CMintS GitHub
+organization](https://github.com/cmints).
 
-You can learn more about CMintS at [https://cmints.io/](https://cmints.io/).
-It's an open source project and you can find every related repository in the
-[CMintS Github organization](https://github.com/cmints).
+You can either install CMintS globally as it's described in the [installation
+documentation](https://cmints.io/documentation) or as a local dependency,
+following the [Quick Start tutorial](https://cmints.io/en/quick-start).
 
-You can either install CMintS globally as it's described in [installation
-documentaion](https://cmints.io/documentation) or by installing it locally, as
-it's described in the [Quick Start tutorial](https://cmints.io/en/quick-start).
-
-You can also find Single and Multi lanuguage website starters at [https://single.cmints.io/](https://single.cmints.io/) and [https://multi.cmints.io/](https://multi.cmints.io/) accordingly.
+Single and multi-language website starters can be found at
+[https://single.cmints.io/](https://single.cmints.io/) and
+[https://multi.cmints.io/](https://multi.cmints.io/) accordingly.
 
 ### Project Structure
 
