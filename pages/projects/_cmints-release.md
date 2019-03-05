@@ -10,7 +10,7 @@ category: project
 tags: [nodejs, ssg]
 ---
 
-In mid 2017 I was searching for a SSGs that would work perfectly both for my
+<img src="/images/projects/cmints/logo-small.png" class="right" width="100"> In mid 2017 I was searching for a SSGs that would work perfectly both for my
 single and multi-language websites, but I was surprised not being able to find
 one that wouldn't require me adding bunch of 3-rd party plugins, do a lof of
 customization work and have a scalable i18n implementation.
@@ -19,11 +19,11 @@ Today I'm happy to announce release of the CMintS!
 
 ## What is CMintS?
 
-[CMintS](https://cmints.io/) is a CMS and Static Site Generator for single and
-multi-language websites creation. Learn more about CMintS at
-[https://cmints.io/](https://cmints.io/). It's an open source project and every
-related repository can be found in the [CMintS GitHub
-organization](https://github.com/cmints).
+[CMintS](https://cmints.io/) 
+is a CMS and Static Site Generator for single and multi-language websites
+creation. Learn more about CMintS at [https://cmints.io/](https://cmints.io/).
+It's an open source project and every related repository can be found in the
+[CMintS GitHub organization](https://github.com/cmints).
 
 You can either install CMintS globally as it's described in the [installation
 documentation](https://cmints.io/documentation) or as a local dependency,
