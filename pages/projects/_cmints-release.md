@@ -10,12 +10,13 @@ category: project
 tags: [nodejs, ssg]
 ---
 
-<img src="/images/projects/cmints/logo-small.png" class="right" width="100"> In mid 2017 I was searching for a SSGs that would work perfectly both for my
+<img src="/images/projects/cmints/logo-small.png" class="right" width="90"> In mid 2017 I was searching for a SSGs that would work perfectly both for my
 single and multi-language websites, but I was surprised not being able to find
 one that wouldn't require me adding bunch of 3-rd party plugins, do a lof of
 customization work and have a scalable i18n implementation.
 
-Today I'm happy to announce release of the CMintS!
+Today I'm happy to announce release of the CMintS! Which is also powering
+current blog.
 
 ## What is CMintS?
 
