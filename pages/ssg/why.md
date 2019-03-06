@@ -3,18 +3,18 @@ title: Why use Static Site Generator(SSG)?
 description: Security, free hosting and blazing fast speed of Static Site Generators. Three reasons of choosing Static Site Generator over classic CMS.
 image: images/projects/cmints/ssgs.png
 author: saroyanm
-date: 2019-02-23
+date: 2019-03-06
 type: post
 tags: [ssg]
 ---
 
 <img src="/images/projects/cmints/ssgs.png" class="full-width">
 
-Nowdays there are a lot of static site generators(SSG) as you can see from the
-[staticgen.com](https://www.staticgen.com/) and
-[staticsitegenerators.net](https://staticsitegenerators.net/) lists and yet
-developers are creating more and more. Here are couple of reasons why you might
-like to choose SSG over classic Blog/Website CMS:
+Nowdays there are a lot of static site generators(SSGs) as you can see from the
+<a href="https://www.staticgen.com/" target="_blank">staticgen.com</a> and
+<a href="https://staticsitegenerators.net/" target="_blank">staticsitegenerators.net</a>
+lists and yet developers are creating more and more. Here are couple of reasons
+why you might want to choose SSG over classic Blog/Website CMS:
 
 ### Security
 
@@ -30,25 +30,23 @@ while, please do it.
 
 There are nowdays a lot of ways how you can host your static website:
 
-- [Github Pages](https://pages.github.com/)
-- [Gitlab pages](https://about.gitlab.com/product/pages/)
-- [Netlify](https://www.netlify.com/)
+- <a href="https://pages.github.com/" target="_blank">Github Pages</a>
+- <a href="https://about.gitlab.com/product/pages/" target="_blank">Gitlab pages</a>
+- <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 
 Those tools also provide you with a free SSL Certificate using [Let's
-Encrypt](https://letsencrypt.org/), no need to buy and/or install a certificate
-on your own and keep maintaining the renewal. So nowdays there is no reason of
+Encrypt](https://letsencrypt.org/). So nowdays there is no reason of
 having a non encripted website, getting an SSL certificate issued is just a one
 free checkbox away.
 
 ### Fast
 
 SSGs are generating HTML pages, so they can be requested right away - no dynamic
-content generation and database calls are required. In addition free hostings
+content generation or database calls are required. In addition free hostings
 mentioned above are taking care of your website http caching. So things are
-getting as fast as they could be, as you can see also from the audit screenshot
-of [https://cmints.io/](https://cmints.io/) homepage below an SSG that is used
-to power current blog as well.
+getting as fast as they could be.
 
 <img src="/images/projects/cmints/website-audit-2019-03-06.png" class="full-width">
 
-[Learn more about CMintS](https://cmints.io/).
+**Note:** Current blog itself is created using Static Site Generator called
+CMintS. </br>[Learn more about CMintS](https://cmints.io/).
