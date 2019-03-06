@@ -2,6 +2,7 @@
 title: Why use Static Site Generator(SSG)?
 description: Security, free hosting and blazing fast speed of Static Site Generators. Three reasons of choosing Static Site Generator over classic CMS.
 image: images/projects/cmints/ssgs.png
+twitterCard: summary_large_image
 author: saroyanm
 date: 2019-03-06
 type: post
@@ -34,10 +35,10 @@ There are nowdays a lot of ways how you can host your static website:
 - <a href="https://about.gitlab.com/product/pages/" target="_blank">Gitlab pages</a>
 - <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 
-Those tools also provide you with a free SSL Certificate using [Let's
-Encrypt](https://letsencrypt.org/). So nowdays there is no reason of
-having a non encripted website, getting an SSL certificate issued is just a one
-free checkbox away.
+Those tools also provide you with a free SSL Certificate using
+<a href="https://letsencrypt.org/" target="_blank">Let's Encrypt</a>. So nowdays
+there is no reason of having a non encripted website, getting an SSL certificate
+issued is just a one free checkbox away.
 
 ### Fast
 
