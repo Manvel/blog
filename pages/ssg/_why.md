@@ -18,13 +18,13 @@ like to choose SSG over classic Blog/Website CMS:
 
 ### Security
 
-If you have experienced the hack of your traditional Drupal, Wordpress and/or
-any other CMS install after you stopped maintaining it or updating then you know
-what I'm talking about. Going through [current twitter
-hashtag](https://twitter.com/hashtag/drupalgeddon) you can see how often that
-happens and you need constatly take care of your installation, if you haven't
-done it for a while, please do it(hope you don't need to reinstall platform and
-do bunch of backups).
+If you have experienced a hack of your traditional CMS installation(like Drupal,
+Wordpress and etc) after you have stopped maintaining it for a while, or forgot
+to update it, then you know what I'm talking about. As you can see from [current
+twitter hashtag thread](https://twitter.com/hashtag/drupalgeddon) security
+breaches are happening quite often in such complex installations and a constant
+maintenance is required for them, if you haven't updated your installation for a
+while, please do it.
 
 ### Free hosting
 
@@ -34,17 +34,21 @@ There are nowdays a lot of ways how you can host your static website:
 - [Gitlab pages](https://about.gitlab.com/product/pages/)
 - [Netlify](https://www.netlify.com/)
 
-Those tools also provide you free SSL Certificate using [Let's
-Encrypt](https://letsencrypt.org/), no need to buy and/or install the
-certificate on your own and renewing it. So nowdays there is no reason of having
-non encripted websites, getting a SSL certificate issued is just a one checkbox
-away.
+Those tools also provide you with a free SSL Certificate using [Let's
+Encrypt](https://letsencrypt.org/), no need to buy and/or install a certificate
+on your own and keep maintaining the renewal. So nowdays there is no reason of
+having a non encripted website, getting an SSL certificate issued is just a one
+free checkbox away.
 
 ### Fast
 
-SSGs are generating HTML pages, no dynamic content generation, database calls
-and etc. In addition the free hostings are taking care of your website http
-caching. So things are as fast as they could be.
+SSGs are generating HTML pages, so they can be requested right away - no dynamic
+content generation and database calls are required. In addition free hostings
+mentioned above are taking care of your website http caching. So things are
+getting as fast as they could be, as you can see also from the audit screenshot
+of [https://cmints.io/](https://cmints.io/) homepage below an SSG that is used
+to power current blog as well.
 
-**Note:** Current blog itself is created using Static Site Generator called
-CMintS. [Learn more about CMintS](https://cmints.io/).
+<img src="/images/projects/cmints/website-audit-2019-03-06.png" class="full-width">
+
+[Learn more about CMintS](https://cmints.io/).
