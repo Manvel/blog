@@ -35,6 +35,7 @@ There are nowdays a lot of ways how you can host your static website:
 - <a href="https://pages.github.com/" target="_blank">Github Pages</a>
 - <a href="https://about.gitlab.com/product/pages/" target="_blank">Gitlab pages</a>
 - <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+- and etc.
 
 Those tools also provide you with a free SSL Certificate using
 <a href="https://letsencrypt.org/" target="_blank">Let's Encrypt</a>. So nowdays
