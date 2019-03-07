@@ -4,6 +4,7 @@ description: Security, free hosting and blazing fast speed of Static Site Genera
 image: images/projects/cmints/ssgs.png
 twitterCard: summary_large_image
 author: saroyanm
+permalink: why-ssg
 date: 2019-03-06
 type: post
 tags: [ssg]
