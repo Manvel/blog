@@ -10,7 +10,7 @@ type: post
 tags: [ssg]
 ---
 
-<img src="/images/projects/cmints/ssgs.png" class="full-width">
+<img src="/images/projects/cmints/ssgs.png" class="full-width" alt="What is static site generator infographic">
 
 Nowdays there are a lot of static site generators(SSGs) as you can see from the
 <a href="https://www.staticgen.com/" target="_blank">staticgen.com</a> and
@@ -49,7 +49,7 @@ content generation or database calls are required. In addition free hostings
 mentioned above are taking care of your website http caching. So things are
 getting as fast as they could be.
 
-<img src="/images/projects/cmints/website-audit-2019-03-06.png" class="full-width">
+<img src="/images/projects/cmints/website-audit-2019-03-06.png" class="full-width" alt="https://cmints.io homepage performance audit">
 
 **Note:** Current blog itself is created using Static Site Generator called
 CMintS. </br>[Learn more about CMintS](https://cmints.io/).
