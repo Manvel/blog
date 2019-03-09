@@ -11,13 +11,13 @@ tags: [nodejs, ssg]
 ---
 
 <img src="/images/projects/cmints/logo-small.png" class="right" width="90"> In
-mid 2017 I was searching for an SSGs that would work perfectly both for my single
-and multi-language websites, but I was surprised not being able to find one that
-wouldn't require me adding bunch of 3-rd party plugins, do a lof of
-customization work and have a scalable i18n implementation.
+mid 2017 I was searching for a Static Site Generator(SSG) that would work
+perfectly both for my single and multi-language websites, but I was surprised
+not being able to find one that wouldn't require me adding bunch of 3-rd party
+plugins, do a lof of customization work and have a scalable i18n implementation.
 
-Today I'm happy to announce release of the CMintS! SSG Which is also powering
-current blog.
+Today I'm happy to announce release of the CMintS! CMS and Static Site Generator
+Which is also powering current blog.
 
 ## What is CMintS?
 
@@ -28,7 +28,7 @@ It's an open source project and every related repository can be found in the
 <a href="https://github.com/cmints" target="_blank">CMintS GitHub organization</a>.
 
 You can either install CMintS globally as it's described in the [installation
-documentation](https://cmints.io/documentation) or as a local dependency,
+documentation](https://cmints.io/documentation) or as a local dependency by
 following the <a href="https://cmints.io/en/quick-start" target="_blank">Quick Start tutorial</a>.
 
 Single and multi-language website starters can be found at
@@ -48,9 +48,9 @@ Single and multi-language website starters can be found at
 ```
 
 - <a href="https://cmints.io/en/documentation/i18n/" target="_blank">/locales</a> -
-  contains translations of the multi-language website project.
+  folder contains translations of the multi-language website project.
 - <a href="https://cmints.io/en/documentation/getting-started/structure#public" target="_blank">/public</a> -
-  store all your static content, images, CSS and etc.
+  stores all your static content, images, CSS and etc.
 - <a href="https://cmints.io/en/documentation/pages/" target="_blank">/pages</a> -
   here goes your website page contents.
 - <a href="https://cmints.io/en/documentation/themes" target="_blank">/theme</a> -
@@ -132,7 +132,7 @@ showToc: true
 ---
 ```
 
-Here are the pages suported by CMintS:
+Here are page types suported by CMintS:
 
 - <a href="https://cmints.io/documentation/pages#markdown" target="_blank">Markdown(.md)</a>
 - <a href="https://cmints.io/documentation/pages#html" target="_blank">HTML(.html)</a>
@@ -157,7 +157,7 @@ locales
 ```
 
 Locale files hold list of the translations strings, the translation strings
-consist of stringid, message and optional description.
+consist of stringid, message and an optional description.
 
 ```json
 {
