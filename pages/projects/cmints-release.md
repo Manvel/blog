@@ -1,6 +1,6 @@
 ---
 title: CMintS
-description: CMintS is a CMS and Static Site Generator that has been implemented with the Internationalization in mind. 
+description: CMintS is a CMS and Static Site Generator for single and multi-language websites and blogs creation. Comprehensive i18n implementation, create themes using EJS, LESS and Modular JS, write content using Markdown and get TMS integration out of the box.
 image: images/projects/cmints/logo-small.png
 author: saroyanm
 date: 2019-03-09
