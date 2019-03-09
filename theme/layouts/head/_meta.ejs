@@ -14,11 +14,15 @@
 <meta content="<%=  description %>" property="og:description">
 <meta property="og:image" content="<%= site.domain %><%= image %>">
 
-<!-- Twitter -->
-<meta name="twitter:card" content="<%= twitterCard %>">
+<!-- Author -->
 <% if (page.author) { %>
+<meta name="author" content="<%= site.authors[page.author].name %>">
+<meta property="article:author" content="<%= site.authors[page.author].url %>">
 <meta name="twitter:creator" content="<%= site.authors[page.author].twitter %>">
 <% } %>
+
+<!-- Twitter -->
+<meta name="twitter:card" content="<%= twitterCard %>">
 <meta name="twitter:image" content="<%= site.domain %><%= image %>">
 <meta name="twitter:title" content="<%= title %>">
 <meta name="twitter:description" content="<%= description %>">

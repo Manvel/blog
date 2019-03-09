@@ -11,6 +11,7 @@ const authors = {
     "avatar": "/images/authors/manvel.png",
     "twitter": "@saroyanm",
     "about": "/about",
+    "url": "https://manvel.me/about",
     "social": [
       {
         "name": "github",
