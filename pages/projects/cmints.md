@@ -1,7 +1,7 @@
 ---
 title: CMintS
 description: CMintS is a CMS and Static Site Generator for single and multi-language websites creation. Comprehensive i18n implementation, create themes using EJS, LESS and Modular JS, write content using Markdown and get TMS integration out of the box.
-image: images/projects/cmints/logo-small.png
+image: images/projects/cmints/logo-leaf.png
 author: saroyanm
 date: 2019-03-09
 css: [highlight.css]
@@ -10,7 +10,7 @@ category: project
 tags: [nodejs, ssg]
 ---
 
-<img src="/images/projects/cmints/logo-small.png" class="right" width="90"> In
+<img src="/images/projects/cmints/logo-leaf.png" class="right" width="90"> In
 mid 2017 I was searching for a Static Site Generator(SSG) that would work
 perfectly both for my single and multi-language websites, but I was surprised
 not being able to find one that wouldn't require me adding bunch of 3-rd party

@@ -1,7 +1,7 @@
 ---
 title: What is wrong with SSGs and i18n?
 description: TBA.
-image: images/projects/cmints/logo-small.png
+image: images/projects/cmints/logo-leaf.png
 author: saroyanm
 date: 2019-02-23
 type: post
