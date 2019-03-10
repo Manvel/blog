@@ -11,10 +11,10 @@ tags: [nodejs, ssg]
 ---
 
 <img src="/images/projects/cmints/logo-leaf.png" class="right" width="90"> In
-mid 2017 I was searching for a Static Site Generator(SSG) that would work
+mid 2017 I was searching for an Static Site Generator(SSG) that would work
 perfectly both for my single and multi-language websites, but I was surprised
 not being able to find one that wouldn't require me adding bunch of 3-rd party
-plugins, do a lof of customization work and have a scalable i18n implementation.
+plugins, do a lot of customization work and have a scalable i18n implementation.
 
 Today I'm happy to announce release of the CMintS! CMS and Static Site Generator
 Which is also powering current blog.
@@ -29,7 +29,7 @@ It's an open source project and every related repository can be found in the
 
 You can either install CMintS globally as it's described in the [installation
 documentation](https://cmints.io/documentation) or as a local dependency by
-following the <a href="https://cmints.io/en/quick-start" target="_blank">Quick Start tutorial</a>.
+following the <a href="https://cmints.io/en/quick-start" target="_blank">quick start tutorial</a>.
 
 Single and multi-language website starters can be found at
 <a href="https://single.cmints.io/" target="_blank">https://single.cmints.io/</a> and
@@ -173,7 +173,7 @@ Source language strings can be defined in
 or
 <a href="https://cmints.io/en/documentation/i18n/theme" target="_blank">theme</a>
 layouts by placing them inside of opening and closing curly braces containing
-stringId, optional Description and actual text:
+stringId, optional description and actual text:
 
 ```js
 {stringId[Description] Source text}
