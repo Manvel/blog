@@ -1,6 +1,6 @@
 body
 {
-  color: @foreground;
+  color: @primary;
   font-family: "Roboto", sans-serif;
   padding: 20px;
 }
@@ -18,16 +18,17 @@ article
     {
       &:hover
       {
-        filter: contrast(200%);
+        filter: brightness(80%);
       }
-      transition: filter 0.2s ease-out;
+      transition: filter 0.1s ease-out;
+      color: @secondary;
     }
     &:hover:not(.post-title)
     {
       text-decoration: underline;
     }
     text-decoration: none;
-    color: @link;
+    color: @tertiary;
   }
   h1
   {
@@ -36,19 +37,17 @@ article
   }
   h2
   {
-    color: @foreground;
-    font-size: 24px;
+    color: @primary;
+    font-size: 1.6rem;
   }
   h3
   {
-    color: @foreground;
-    font-size: 20px;
+    color: @primary;
+    font-size: 1.4rem;
   }
   p
   {
-    line-height: 1.6rem;
-    font-size: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 1.4rem;
   }
   img
   {
@@ -70,8 +69,6 @@ article
   li
   {
     margin-top: 0.5rem;
-    line-height: 1.6rem;
-    font-size: 1rem;
   }
   code
   {
@@ -81,7 +78,8 @@ article
   }
   pre code
   {
-    font-size: 0.8rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
     display: block;
     padding: 1rem;
     margin-top: 1.5rem;
@@ -90,16 +88,19 @@ article
   }
   .subtitle
   {
-    font-size: 16px;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-top: 12px;
     font-weight: bold;
   }
   .meta-post
   {
     time, em
     {
-      color: @link;
+      color: @tertiary;
     }
-    margin: 14px 0px;
+    margin: 12px 0px;
     font-size: 12px;
   }
   .social
@@ -112,8 +113,9 @@ article
     vertical-align: middle;
     display: inline-block;
   }
-  margin-top: 40px;
-  font-size: 30px;
+  margin-top: 44px;
+  line-height: 1.7rem;
+  font-size: 1.1rem;
 }
 
 .post
@@ -134,8 +136,8 @@ article
   {
     a
     {
-      color: @foreground;
+      color: @primary;
     }
-    margin-top: 1.5rem;
+    margin-top: 1.8rem;
   }
 }
