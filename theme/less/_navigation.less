@@ -3,6 +3,7 @@ nav
   margin: 36px -20px 0 -20px;
   border-top: 1px solid @primary;
   border-bottom: 1px solid @primary;
+  font-size: 22px;
   ul
   {
     li
@@ -17,7 +18,6 @@ nav
         color: @primary;
       }
       display: inline-block;
-      font-size: 22px;
       font-weight: 700;
       padding: 18px 14px;
       text-transform: uppercase;
@@ -30,4 +30,12 @@ nav
 .post nav
 {
   margin-top: 20px;
+}
+
+@media (max-width: @tablet-width)
+{
+  nav
+  {
+    font-size: 18px;
+  }
 }
