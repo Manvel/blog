@@ -5,7 +5,13 @@
   </head>
   <body>
     <header>
-      <% include _navigation %>
+      <div class="justify-between">
+        <% include author/_blog %>
+        <% include hamburger %>
+      </div>
+      <nav class="tablet-hide">
+        <% include _navigation %>
+      </nav>
     </header>
     <main>
       <% const tag = page.pathname.replace("tag/", "").toLowerCase(); %>

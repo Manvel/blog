@@ -4,16 +4,10 @@
     <% include head/_index %>
   </head>
   <body>
-    <header>
+    <header class="author">
       <div class="justify-between">
         <% include author/_blog %>
-        <nav class="desktop-hide hamburger self-center">
-          <input id="navigation-menu-toggle" type="checkbox">
-          <div role="dialog">
-            <% include _navigation %>
-          </div>
-          <label for="navigation-menu-toggle"></label>
-        </nav>
+        <% include hamburger %>
       </div>
       <nav class="tablet-hide">
         <% include _navigation %>

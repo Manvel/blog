@@ -29,7 +29,8 @@ const authors = {
         "path": "https://twitter.com/saroyanm"
       }
     ]
-  }
+  },
+  "default": "saroyanm"
 };
 
 const shareButtons = [

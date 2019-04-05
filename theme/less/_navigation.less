@@ -1,6 +1,5 @@
 nav
 {
-  margin: 36px -20px 0 -20px;
   font-size: 22px;
   ul
   {
@@ -25,6 +24,7 @@ nav
   }
   &:not(.hamburger)
   {
+    margin: 36px -20px 0 -20px;
     border-top: 1px solid @primary;
     border-bottom: 1px solid @primary;
   }
@@ -59,6 +59,7 @@ nav
       height: inherit;
       position: absolute;
       cursor: pointer;
+      z-index: 2;
       &:hover
       {
         filter: contrast(200%);
@@ -83,6 +84,7 @@ nav
       transition:visibility 0.3s ease-out,opacity 0.3s ease-out;
       background-color: @primary-reverse;
       font-size: 2rem;
+      z-index: 1;
       ul
       {
         text-align: center;
@@ -97,9 +99,24 @@ nav
   }
 }
 
-.post nav
+body header:not(.author)
 {
-  margin-top: 20px;
+  nav
+  {
+    &.hamburger
+    {
+      margin: 0px;
+      margin-left: auto;
+    }
+  }
+}
+
+body:not(.post) nav
+{
+  &.hamburger
+  {
+    align-self: center;
+  }
 }
 
 @media (max-width: @tablet-width)

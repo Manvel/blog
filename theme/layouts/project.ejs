@@ -5,7 +5,11 @@
   </head>
   <body>
     <header>
-      <nav>
+      <div class="justify-between">
+        <% include author/_blog %>
+        <% include hamburger %>
+      </div>
+      <nav class="tablet-hide">
         <% include _navigation %>
       </nav>
     </header>
