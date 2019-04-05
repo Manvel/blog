@@ -5,8 +5,19 @@
   </head>
   <body>
     <header>
-      <% include author/_blog %>
-      <% include _navigation %>
+      <div class="justify-between">
+        <% include author/_blog %>
+        <nav class="desktop-hide hamburger self-center">
+          <input id="navigation-menu-toggle" type="checkbox">
+          <div role="dialog">
+            <% include _navigation %>
+          </div>
+          <label for="navigation-menu-toggle"></label>
+        </nav>
+      </div>
+      <nav class="tablet-hide">
+        <% include _navigation %>
+      </nav>
     </header>
     <main>
       <% const posts = site.queryPages((data) => data.type == "post").sort((a, b) => new Date(b.date) - new Date(a.date)) %>

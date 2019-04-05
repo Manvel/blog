@@ -79,3 +79,25 @@ header
   border-radius: 50%;
   border: solid 1px black;
 }
+
+@media (max-width: @tablet-width)
+{
+  header
+  {
+    .author
+    {
+      .avatar
+      {
+        width: 50px;
+      }
+      p:not(:last-of-type), h1
+      {
+        margin-bottom: 5px;
+      }
+      .social
+      {
+        display: none;
+      }
+    }
+  }
+}

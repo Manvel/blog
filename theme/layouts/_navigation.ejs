@@ -1,7 +1,5 @@
-<nav>
-  <ul>
-    <% site.navigations.forEach(({name, path}) => { %>
-      <li><a href="<%= path %>"><%= name %></a></li>
-    <% }); %>
-  </ul>
-</nav>
+<ul>
+  <% site.navigations.forEach(({name, path}) => { %>
+    <li><a href="<%= path %>"><%= name %></a></li>
+  <% }); %>
+</ul>
