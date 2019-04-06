@@ -18,9 +18,9 @@
       <% const posts = site.queryPages((data) => data.category == "project").sort((a, b) => new Date(b.date) - new Date(a.date)) %>
       <% posts.forEach(function(post) { %>
         <article>
-          <a href="/<%- post.pathname %>" class="post-title">
-            <h2><%= post.title %></h2>
-          </a>
+          <h2>
+            <a href="/<%- post.pathname %>" class="post-title"><%= post.title %></a>
+          </h2>
           <% if(post.summary) { %>
             <p><%= post.summary %></p>
           <% } else { %>
