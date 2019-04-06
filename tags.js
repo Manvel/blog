@@ -6,7 +6,6 @@ layout: tags
 ---
 `;
 
-
 const createTags = (tags) =>
 {
   if (!tags.length)

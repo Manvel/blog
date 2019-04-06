@@ -2,7 +2,7 @@
   <% if (/(^_|\/_)/.test(post.pathname) && site.draft != true) return; %>
   <article>
     <h2>
-      <a href="<%- post.pathname %>" class="post-title"><%= post.title %></a>
+      <a href="/<%- post.pathname %>" class="post-title"><%= post.title %></a>
     </h2>
     <% if(post.summary) { %>
       <p><%= post.summary %></p>
