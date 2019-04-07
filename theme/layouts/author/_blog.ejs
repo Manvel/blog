@@ -7,7 +7,7 @@
     <p class="head-blog">Blog by</p>
     <h1><%= author.name %></h1>
     <p>
-      <% include _social %>
+      <%- include("author/_social", {author: author}); %>
     </p>
   </div>
 </div>

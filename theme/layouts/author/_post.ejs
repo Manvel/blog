@@ -4,7 +4,7 @@
   <div class="author">
     <% if (page.follow) { %>
       <h2>Follow author</h2>
-      <p><% include _social %></p>
+      <p><%- include("author/_social", {author: author}); %></p>
     <% } else { %>
       <h2>Post author</h2>
       <p><a href="<%= author.about %>"><%= author.name %></a></p>
