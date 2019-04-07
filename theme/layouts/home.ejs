@@ -4,14 +4,8 @@
     <% include head/_index %>
   </head>
   <body>
-    <header class="author">
-      <div class="justify-between">
-        <% include author/_blog %>
-        <% include hamburger %>
-      </div>
-      <nav class="tablet-hide">
-        <% include _navigation %>
-      </nav>
+    <header>
+      <% include _header %>
     </header>
     <main>
       <% const posts = site.queryPages((data) => data.type == "post").sort((a, b) => new Date(b.date) - new Date(a.date)) %>
