@@ -1,9 +1,3 @@
-<ul>
-  <% site.navigations.forEach(({name, path}) => { %>
-    <li><a href="<%= path %>"><%= name %></a></li>
-  <% }); %>
-  <li>
-    <% const author = site.authors[site.authors.default]; %>
-    <%- include("author/_social", {author: author}); %>
-  </li>
-</ul>
+<% site.navigations.forEach(({name, path}) => { %>
+  <li><a href="<%= path %>"><%= name %></a></li>
+<% }); %>

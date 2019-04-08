@@ -1,7 +1,13 @@
 <nav class="desktop-hide hamburger">
   <input id="navigation-menu-toggle" type="checkbox">
   <div role="dialog">
-    <% include _navigation %>
+    <ul>
+      <% include _navigation %>
+      <li>
+        <% const author = site.authors[site.authors.default]; %>
+        <%- include("author/_social", {author: author}); %>
+      </li>
+    </ul>
   </div>
   <label for="navigation-menu-toggle"></label>
 </nav>
