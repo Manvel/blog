@@ -5,6 +5,7 @@ nav
   {
     padding: 0 6px;
     list-style: none;
+    text-align: center;
     li
     {
       a
@@ -14,7 +15,7 @@ nav
           text-decoration: underline;
         }
         text-decoration: none;
-        color: @secondary;
+        color: @primary;
       }
       display: inline-block;
       font-weight: 700;
@@ -22,11 +23,16 @@ nav
       text-transform: uppercase;
     }
   }
+  hr
+  {
+    margin: 0;
+    background: linear-gradient(0.25turn, #52789800, @primary, #52789800);
+    border: 0;
+    height: 1px;
+  }
   &:not(.hamburger)
   {
     margin: 36px -20px 0 -20px;
-    border-top: 1px solid @primary;
-    border-bottom: 1px solid @primary;
   }
   &.hamburger
   {
