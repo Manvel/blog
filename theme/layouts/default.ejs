@@ -5,15 +5,12 @@
   </head>
   <body class="post">
     <header>
-      <div class="desktop-hide justify-between">
+      <div class="justify-between">
         <% include author/_blog %>
-        <% include _hamburger %>
+        <nav class="hamburger">
+          <% include _hamburger %>
+        </nav>
       </div>
-      <nav class="tablet-hide">
-        <ul>
-          <% include _navigation %>
-        </ul>
-      </nav>
     </header>
     <main>
       <article>

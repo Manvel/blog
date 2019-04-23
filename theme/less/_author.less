@@ -80,6 +80,25 @@ header
   border: solid 1px black;
 }
 
+.post header
+{
+  .author
+  {
+    .avatar
+    {
+      width: 45px;
+    }
+    p:not(:last-of-type), h1
+    {
+      margin-bottom: 5px;
+    }
+    .social
+    {
+      display: none;
+    }
+  }
+}
+
 @media (max-width: @tablet-width)
 {
   header
@@ -88,7 +107,7 @@ header
     {
       .avatar
       {
-        width: 50px;
+        width: 45px;
       }
       p:not(:last-of-type), h1
       {
