@@ -46,8 +46,8 @@ const shareButtons = [
   },
   {
     "name": "Google Plus",
-    "image": "/images/social/gplus.svg",
-    "path": "https://plus.google.com/share?url="
+    "image": "/images/social/linkedin.svg",
+    "path": "https://www.linkedin.com/shareArticle?url="
   }
 ];
 
