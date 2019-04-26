@@ -80,43 +80,13 @@ header
   border: solid 1px black;
 }
 
-.post header
+
+@import url("_author-mobile.less") (max-width: 650px);
+
+/* Use mobile header version also for posts as an exception */
+
+.post
 {
-  .author
-  {
-    .avatar
-    {
-      width: 45px;
-    }
-    p:not(:last-of-type), h1
-    {
-      margin-bottom: 5px;
-    }
-    .social
-    {
-      display: none;
-    }
-  }
+  @import (multiple) "_author-mobile.less";
 }
 
-@media (max-width: @tablet-width)
-{
-  header
-  {
-    .author
-    {
-      .avatar
-      {
-        width: 45px;
-      }
-      p:not(:last-of-type), h1
-      {
-        margin-bottom: 5px;
-      }
-      .social
-      {
-        display: none;
-      }
-    }
-  }
-}
