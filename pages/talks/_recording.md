@@ -1,11 +1,10 @@
 ---
-title: Internationalization Main Points
-description: Presentation about Internationlization and Localization where I discuss different technics for implementing multi-language websites, Layouting, SEO, Linguistic details, Fonts, translation management systems and etc.
+title: Screen and camera streaming
+description: TBA.
 image: images/talks/i18n-main-points-promo.png
 author: saroyanm
 date: 2019-04-22
 type: post
-tags: [i18n, l10n]
 ---
 
 ### Process of recording
