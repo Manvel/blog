@@ -67,10 +67,22 @@ const navigations = [
 ];
 
 const {getLanguage, highlight} = require("highlight.js");
+const markdownLink = require("markdown-it-link-attributes");
 
 // See https://markdown-it.github.io/markdown-it/#MarkdownIt.new
 const markdownOptions = {
-  highlight: (str, lang) => (lang && getLanguage(lang)) ? highlight(lang, str).value : ""
+  highlight: (str, lang) => (lang && getLanguage(lang)) ? highlight(lang, str).value : "",
+  plugins: [
+    [
+      markdownLink, {
+        pattern: /^https?:\/\//,
+        attrs: {
+          target: "_blank",
+          rel: "noopener"
+        }
+      }
+    ]
+  ]
 };
 
 require("./tags").createTags(tags);
