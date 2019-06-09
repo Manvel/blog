@@ -3,7 +3,6 @@ const favicon = "/images/favicon.png";
 const image = "/images/manvel.png";
 const title = "Manvel";
 const description = "I wite here about stuff I do.";
-const tags = ["extension", "JavaScript", "NodeJS", "ssg", "i18n", "l10n"];
 
 const authors = {
   "saroyanm": {
@@ -85,7 +84,7 @@ const markdownOptions = {
   ]
 };
 
-require("./tags").createTags(tags);
+require("./tags").createTags();
 const {draft} = require("minimist")(process.argv.slice(2));
 
 const templateData = {
