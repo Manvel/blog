@@ -3,4 +3,5 @@ package-lock.json
 public/css/main.css
 public/css/highlight.css
 pages/tag
+content
 .DS_Store
