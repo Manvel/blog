@@ -48,7 +48,8 @@ const createTags = () =>
       mkdirSync(tagDir);
     tags.forEach((tag) =>
     {
-      const file = path.join(tagDir, tag.toLowerCase() + ".md");
+      const tagFilename = tag.toLowerCase().replace(/\s+/g,"-");
+      const file = path.join(tagDir, tagFilename + ".md");
       if (!existsSync(file))
         writeFileSync(file, fileContent);
     });

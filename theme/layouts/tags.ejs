@@ -8,7 +8,7 @@
       <% include _header %>
     </header>
     <main>
-      <% const tag = page.pathname.replace("tag/", "").toLowerCase(); %>
+      <% const tag = page.pathname.replace("tag/", "").replace(/\-/g," ").toLowerCase(); %>
       <% const posts = site.queryPages((data) => data.tags && data.tags.includes(tag)).sort((a, b) => new Date(b.date) - new Date(a.date)) %>
       <%- include("_load-posts", {posts}) %>
     </main>
