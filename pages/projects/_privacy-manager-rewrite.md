@@ -1,37 +1,38 @@
 ---
-title: Privacy Manager 3.5.0 and more
-description: Privacy Manager v3.5.0 with web compoenets, automated puppeteer tests and modernized ES6 code is here. Privacy Manager is a web extension for data transparency and control.
-image: images/projects/privacy-manager/logo.png
+title: Rewriting Privacy Manager
+description: New web components showcase, automated test implementation using puppeteer for browser extensions and more changes in the new version of the Privacy Manager.
+image: images/projects/privacy-manager/rewriting-promo.jpg
 author: saroyanm
 css: [highlight.css]
 date: 2019-12-23
 type: post
-category: project
-tags: [extension]
+tags: [extension, tests, web components]
 ---
 
-Privacy Manager was created mid 2012 and since then the codebase didn't have
-much of drastic updates. In 7 years web technologies has been advanced quite a
-lot and maintaining an old monolithic was quite a challenge:
+First version of the Privacy Manager was created mid 2012 and since then the
+codebase didn't have much of drastic updates. In 7 years web technologies has
+been advanced quite a lot and maintaining an old monolithic code was quite a
+challenge:
 
-- No modularization.
-- No tests running in the browser.
-- Callback hells.
+- [No modularization.](#web-components)
+- [No tests running in the browser.](#automated-tests-and-puppeteer)
+- [Callback hells.](#webextension-polyfill)
 - and more..
 
-Even thought it took me 24 hours to create Privacy Manager for a Hackathon and 1
-week, to modify it with the help of Google Chrome team, the complete rewrite
-took me 4-5 months. So let's have a look into those changes. 
+Even though it took 24 hours to create [Privacy Manager for a
+Hackathon](https://www.youtube.com/watch?v=kORDTtLnJxE) and 1 week, to modify it
+with the help of Google Chrome team in Munich, the complete rewrite took me
+around 4-5 months. So let's have a look into those changes. 
 
 ## Web Components
 
 Initial version of Privacy Manager had a monolith implementation and as it was
-designed as part of a Hackathon project, my goal was back in the time to just
-make it work, as a result I have got a quite messy interconnected widgets, which
-I was trying from time to time refactor. The GIF below describes quite well
-Privacy Manager's development experience:
+designed as part of a Hackathon project, my goal was to just make it work, as a
+result I have got a quite messy interconnected widgets, which I was trying to
+refactor from time to time. The GIF below describes quite well Privacy
+Manager's development experience:
 
-<img src="/images/projects/privacy-manager/leaking-pipes.gif" width="800" style="display: block; max-width: 100%;"/>
+<img src="/images/general/leaking-pipes.gif" width="800" style="display: block; max-width: 100%;"/>
 
 In the mid 2017 decision was made to get rid of Jquery and Jquery UI
 dependencies from the Privacy Manager, because most of the things I needed
@@ -254,7 +255,8 @@ permissions](https://github.com/puppeteer/puppeteer/issues/5054), but
 unfortunatelly no answer there for 2 months already and I couldn't find a better
 solution than modifying the `manifest.json` in the test environment to bypass
 the permission wall, which make it possible to test most of the functionality,
-but leaves the edge cases and permission related tests untouched for now.
+but leaves some of the edge cases and permission related tests untouched for
+now.
 
 As a result, now most of the important and tidious integration tests are ready
 and running automatically, with the exception of several edge cases that wasn't
@@ -284,14 +286,14 @@ stumbled upon
 repository, which were basically doing what I was looking for. The problem was
 that the project were not supporting all Chrome Privacy APIs, but only those
 which were supported by Firefox, thanksfully mozilla development team was very
-suppotive after reporting the [issue about missing chrome privacy
-APIs](https://github.com/mozilla/webextension-polyfill/issues/204)  and
-[mentored me in fixing that issue in a spearate
+supportive after the [issue about missing chrome privacy
+APIs](https://github.com/mozilla/webextension-polyfill/issues/204) was reported
+to them and [they helped me fixing that issue in a spearate
 PR]((https://github.com/mozilla/webextension-polyfill/pull/205)).
 
 Currently Privacy Manager is using promises and it's now more closer into being
-ported into Firefox, than ever before. There are still work to do to make that
-possible, but it's now more of a documentation work and tests automation.
+ported into Firefox, than ever before. There are still some work to do to make
+that possible, but it's now more of a documentation work and tests automation.
 
 ## Privacy Managers organization
 
