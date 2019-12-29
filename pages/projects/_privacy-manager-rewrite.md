@@ -298,11 +298,13 @@ that possible, but it's now more of a documentation work and tests automation.
 ## Privacy Managers organization
 
 After moving Web Components into a separate repository, it already made sense to
-move Privacy Manager related repositories into a new organization. The new
-organization is called "Privacy Managers", only reason why it's plural is that I
-have bought `privacymanagers.org` domain (website is in the designing phase)
-instead of `privacymanager.org`, because the later one wasn't available anymore.
-So currently all Privacy Manager related repositories can be found at [Privacy
-Managers organization](https://github.com/Privacy-Managers).
+move Privacy Manager related repositories into a new Github organization. Now
+the new organization is ready and both, [Privacy Manager
+Components](https://github.com/Privacy-Managers/pm-components) and [Privacy
+Manager](https://github.com/Privacy-Managers/Privacy-Manager) are moved into the
+[Privacy Managers organization](https://github.com/Privacy-Managers). The reason
+why the organization name is plural, is that the plan is to host Privacy
+Manager's website at `privacymanagers.org`(website is in the designing phase)
+and eventually also host there various resources about Privacy and Security.
 
 [Get Privacy Manager here](https://chrome.google.com/webstore/detail/privacy-manager/giccehglhacakcfemddmfhdkahamfcmd).
