@@ -16,7 +16,7 @@ challenge:
 
 - [No modularization.](#web-components)
 - [No tests running in the browser.](#automated-tests-and-puppeteer)
-- [Callback hells.](#webextension-polyfill)
+- [Callbacks hell.](#webextension-polyfill)
 - and more..
 
 Even though it took 24 hours to create [Privacy Manager for a
