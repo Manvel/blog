@@ -4,7 +4,8 @@ description: New web components showcase, automated test implementation using pu
 image: images/projects/privacy-manager/rewriting-promo.jpg
 author: saroyanm
 css: [highlight.css]
-date: 2019-12-23
+twitterCard: summary_large_image
+date: 2019-12-29
 type: post
 tags: [extension, tests, web components]
 ---
