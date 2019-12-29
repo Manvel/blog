@@ -304,7 +304,8 @@ Components](https://github.com/Privacy-Managers/pm-components) and [Privacy
 Manager](https://github.com/Privacy-Managers/Privacy-Manager) are moved into the
 [Privacy Managers organization](https://github.com/Privacy-Managers). The reason
 why the organization name is plural, is that the plan is to host Privacy
-Manager's website at `privacymanagers.org`(website is in the designing phase)
-and eventually also host there various resources about Privacy and Security.
+Manager's landing page at `privacymanagers.org`(website is in the designing
+phase) and hopefully also host there various resources about Privacy and
+Security.
 
 [Get Privacy Manager here](https://chrome.google.com/webstore/detail/privacy-manager/giccehglhacakcfemddmfhdkahamfcmd).
