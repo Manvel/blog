@@ -4,4 +4,5 @@ public/css/main.css
 public/css/highlight.css
 pages/tag
 content
+.vscode
 .DS_Store
