@@ -296,6 +296,11 @@ Currently Privacy Manager is using promises and it's now more closer into being
 ported into Firefox, than ever before. There are still some work to do to make
 that possible, but it's now more of a documentation work and tests automation.
 
+Update: Unfortunatelly there is still [a bug in
+Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1432083) which prevents
+requesting Additional permissions from the extension popup and hence blocking
+Privacy Manager port to Firefox.
+
 ## Privacy Managers organization
 
 After moving Web Components into a separate repository, it already made sense to
