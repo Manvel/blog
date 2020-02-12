@@ -290,7 +290,7 @@ which were supported by Firefox, thanksfully mozilla development team was very
 supportive after the [issue about missing chrome privacy
 APIs](https://github.com/mozilla/webextension-polyfill/issues/204) was reported
 to them and [they helped me fixing that issue in a spearate
-PR]((https://github.com/mozilla/webextension-polyfill/pull/205)).
+PR](https://github.com/mozilla/webextension-polyfill/pull/205).
 
 Currently Privacy Manager is using promises and it's now more closer into being
 ported into Firefox, than ever before. There are still some work to do to make
