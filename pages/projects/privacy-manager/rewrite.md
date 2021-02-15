@@ -7,7 +7,7 @@ css: [highlight.css]
 twitterCard: summary_large_image
 date: 2019-12-29
 type: post
-tags: [extension, tests, web components]
+tags: [extension, tests, web components, rewrite]
 ---
 
 First version of the Privacy Manager was created mid 2012 and since then the
