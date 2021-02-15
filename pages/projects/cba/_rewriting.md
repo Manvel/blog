@@ -7,16 +7,16 @@ css: [highlight.css]
 twitterCard: summary_large_image
 date: 2021-02-12
 type: post
-tags: [extension, tests, web components]
+tags: [extension, cba, rewrite]
 ---
 
 In 2012 I was working for a matchmaking company as a developer in the online
-marketing department, as part of my regular task was affiliate tracking pixels
-installation and as we didn't have a dedicated QA I should manually test each
-single of them going through 4-5 steps of validation forms. Somtimes that would
-occupy **40-50%** of my time and was quite frustrative task. That was the time when
-I decided to create CBA - a prototype extension that helped me optimizing the
-task to only take less than 3% of my time and generate automated reports.
+marketing department, affiliate tracking pixels installation was part of my
+regular tasks, also I had to manually test each single of them going through 4-5
+steps of validation forms. Sometimes that would occupy **40-50%** of my time and
+was quite frustrative task. That was the time when I decided to create CBA - a
+prototype extension that helped me optimizing the task to only take less than 3%
+of my time and generate automated reports.
 
 It was quite similar to one of the first videos I have created mid 2012 for
 promoting CBA on a random matchmaking website:
@@ -29,9 +29,6 @@ social networks congratulate my friends with birthday, like various posts in
 groups, newsfeed, visit various profiles and automating matchmaking.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gP5wC28jCGA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Hackathons participations and social media activity brought a small fame to the
-project back in the time.
 
 ## recession
 
