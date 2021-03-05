@@ -1,6 +1,6 @@
 ---
 title: Rewriting chromium browser automation
-description: TBA
+description: Rewriting Chromium Browser Automation, open sourcing it and the future of CBA.
 image: images/projects/privacy-manager/rewriting-promo.jpg
 author: saroyanm
 css: [highlight.css]
@@ -55,11 +55,32 @@ the CBA which include current changes:
   static website.
 - [and more](https://github.com/browser-automation/cba/releases/tag/9.0.0).
 
+
+### Automated tests
+
+Considering the complexity of the project, regressions are regular thing when I
+used to make contributions, opening the project for the community is also
+something that requires constant QA. Automations implementation took most of my
+time while rewriting the extesnio, but now I can do bugfixes without worrying
+that I may spend more time on fixing the regressions.
+
+<img src="/images/projects/cba/npm-test.gif" width="800" style="display: block; max-width: 100%;"/>
+
+### Open sourcing
+
+Finally the CBA has been open sourced and all the source codes can be found in
+[browser-automation github organization](https://github.com/browser-automation),
+the reason behind the generic organization name is that after the rewrite of the
+CBA it should be trivial to prepare builds for Firefox, Edge and plans are to
+work on the desktop app and make it less platform dependent in future, so it
+seem to be a good idea to start ahead. So if you have a Github account and like
+what we do with CBA - please hit that star icon at
+[/browser-automation/cba](https://github.com/browser-automation/cba)!
 ### Components and UI
 
-The rewrite currently doesn't introduce much UI changes, but rather it
-introduces complete rewrite of old Jquery libraries, which is more lightweight
-and independent. It did required some effort to rewrite the components, but it
+The rewrite haven't introduced many UI changes, but rather it introduced
+replacement of old Jquery libraries with much more lightweight and independent
+Web Components. It did required some effort to rewrite the components, but it
 now provide all the basis to easy modification and modularization for the future
 UI changes.
 
@@ -71,16 +92,33 @@ and end to end tests.
 
 We are currently working hard to introduce a new UI, to make it more modern less
 bulky and provide a better user experience. Stay tuned...
+### Modernization
 
-### Automated tests
+One of the important change is async/await support into code injection,
+previously users in order to wait for async script injection they had to use
+combination of `sendBgInstruction = false;` and `sendInstruction()`, here is how
+it used to look like before:
 
-Considering the complexity of the project, regressions are regular thing when I
-used to make contributions, opening the project for the community is also
-something that requires constant QA. Automations implementation took most of my
-time while rewriting the extesnio, but now I can do bugfixes without worrying
-that I may spend more time on fixing the regressions.
+```js
+sendBgInstruction = false;
+chrome.tabs.query({active: true}, (tabs) =>
+{
+  chrome.tabs.remove(tabs[0].id, () =>
+  {
+    chrome.tabs.remove(tab.id, () =>
+    {
+      sendInstruction();
+    });
+  });
+});
+```
 
-<img src="/images/projects/cba/npm-test.gif" width="800" style="display: block; max-width: 100%;"/>
+And now same thing can be achieved using:
+
+```js
+const [tab] = await browser.tabs.query({active: true});
+await browser.tabs.remove(tab.id);
+```
 
 ### Drupal to SSG
 
@@ -97,10 +135,35 @@ comparison to the previous "red" metrics.
 <img src="/images/projects/cba/website-audit-2021-02-15.png" class="full-width"
 alt="https://chrome-automation.com homepage performance audit">
 
-### Open sourcing
+## Future of the CBA
 
-Finally the CBA is open source and all the source codes can be found in
-[browser-automation github organization](https://github.com/browser-automation),
-the reason behind the generic organization name is that after the rewrite of the
-CBA it should be trivial to prepare builds for Firefox, Edge and plans are to
-work on the desktop app and make it less platform dependent.
+I think CBA can have quite promising future regarding user growth and
+considering that more than 40 000 users are already using it, it does seem to
+help people automatic their borring daily tasks and I hope to make the
+automation creation in future much more simple and accessible for everyone with
+the help of @newman with whom we are working hard on new UI and UX of the
+product.
+
+Surely we have quite a lot of challenges in front of us, one of the biggest and
+important challeng will be the changes in the platforms(i.e. Manifest v3
+introduction) and ensuring that CBA can continue being supported on Chrome in
+future. Thanksfully with the modernization of the code it should be less
+painful, but still quite challenging.
+
+Another challeng which I'm willing to take is the revolutionizing the recording
+of the automation, currently the recording of the actions isn't working reliable
+enough considering the complexity of the modern web, but I'm willing to take the
+challeng and in future create automation solution that will require the least
+understanding of the programming.
+
+Those are quite big challenges which I think we will be able to handle, now that
+we can involve more contributors and have a better basis for it, as latest data
+and user feedback analysis provided quite a lot of hints how we can get more
+users, increase retention rate and improve the product I would expect big user
+growth after winning the challenges. The biggest problem right now is the small
+development team(well it's me basically) and people dedicated to the project, so
+any contribution is welcome and if you would like helping with the development
+of CBA please do not hessitate reaching out to me or you can just start from
+[https://github.com/browser-automation](https://github.com/browser-automation).
+
+Fingers crossed and let's go back to work!
