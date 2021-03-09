@@ -1,7 +1,7 @@
 ---
 title: Rewriting chromium browser automation
 description: Rewriting Chromium Browser Automation, open sourcing it and the future of CBA.
-image: images/projects/privacy-manager/rewriting-promo.jpg
+image: images/projects/cba/rewriting-promo.jpg
 author: saroyanm
 css: [highlight.css]
 twitterCard: summary_large_image
@@ -139,19 +139,18 @@ alt="https://chrome-automation.com homepage performance audit">
 
 I think CBA can have quite promising future regarding user growth and
 considering that more than 40 000 users are already using it, it does seem to
-help people automatic their borring daily tasks and I hope to make the
-automation creation in future much more simple and accessible for everyone with
-the help of @newman with whom we are working hard on new UI and UX of the
-product.
+help people automate their borring daily tasks and I hope to make the automation
+creation in future much more simple and accessible for everyone with the help of
+[@Newman](https://www.behance.net/driver202de98) with whom we are working hard
+on new UI and UX of the product.
 
 Surely we have quite a lot of challenges in front of us, one of the biggest and
 important challeng will be the changes in the platforms(i.e. Manifest v3
-introduction) and ensuring that CBA can continue being supported on Chrome in
-future. Thanksfully with the modernization of the code it should be less
-painful, but still quite challenging.
+introduction) and ensuring that CBA can continue being fully supported on Chrome
+in future.
 
-Another challeng which I'm willing to take is the revolutionizing the recording
-of the automation, currently the recording of the actions isn't working reliable
+Another challeng which I'm going to take is the revolutionizing the recording of
+the automation, currently the recording of the actions isn't working reliable
 enough considering the complexity of the modern web, but I'm willing to take the
 challeng and in future create automation solution that will require the least
 understanding of the programming.
@@ -161,9 +160,9 @@ we can involve more contributors and have a better basis for it, as latest data
 and user feedback analysis provided quite a lot of hints how we can get more
 users, increase retention rate and improve the product I would expect big user
 growth after winning the challenges. The biggest problem right now is the small
-development team(well it's me basically) and people dedicated to the project, so
-any contribution is welcome and if you would like helping with the development
-of CBA please do not hessitate reaching out to me or you can just start from
+development team and people dedicated to the project, so any contribution is
+welcome and if you would like helping with the development of CBA please do not
+hessitate reaching out to me or you can just start from
 [https://github.com/browser-automation](https://github.com/browser-automation).
 
 Fingers crossed and let's go back to work!
