@@ -5,18 +5,18 @@ image: images/projects/cba/rewriting-promo.png
 author: saroyanm
 css: [highlight.css]
 twitterCard: summary_large_image
-date: 2021-02-12
+date: 2021-03-09
 type: post
 tags: [extension, cba, rewrite]
 ---
 
-In 2012 I was working for a matchmaking company as a developer in the online
+In 2012 I was working for a matchmaking company as a developer at the online
 marketing department, affiliate tracking pixels installation was part of my
-regular tasks, also I had to manually test each single of them going through 4-5
-steps of validation forms. Sometimes that would occupy **40-50%** of my time and
-was quite frustrative task. That was the time when I decided to create CBA - a
-prototype extension that helped me optimizing the task to only take less than 3%
-of my time and generate automated reports.
+regular job, also I had to manually test each single of them going through 4-5
+pages sign-up form with bunch of validation fields. Sometimes that would occupy
+**40-50%** of my time and was a quite frustrative task. That was the time when I
+decided to create CBA - a prototype extension that helped me optimizing the task
+to only take less than 3% of my time and generate automated reports.
 
 It was quite similar to one of the first videos I have created mid 2012 for
 promoting CBA on a random matchmaking website:
@@ -26,14 +26,14 @@ promoting CBA on a random matchmaking website:
 Since then I was searching for various usecases and enjoying fighting bot
 circumvantions, basically I have managed to create a script that would go to
 social networks congratulate my friends with birthday, like various posts in
-groups, newsfeed, visit various profiles and automating matchmaking.
+groups, newsfeed, visit various profiles, send friend requests and many more.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gP5wC28jCGA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## recession
 
-As I have switched my job in 2013 and faild integrating CBA into my daily job, I
-have stopped actively maintaining the project. Unfortunatelly such projects
+As I have switched my job in 2013 and faild integrating CBA into my daily tasks,
+I have stopped actively maintaining the project. Unfortunatelly such projects
 require active mainatinance, first was the Facebook liking functionality went
 down and instead of playing cat and mouse game with Facebook I have decided to
 remove the automation script, later the recording started to work unreliable as
@@ -49,6 +49,7 @@ and in 2021 I have managed to finally launch the complete rewritten version of
 the CBA which include current changes:
 - Complete rewrite of the codebase.
 - [Modularization using web components.](https://github.com/browser-automation/cba-components)
+- Codebase modernization.
 - Full automated test coverage.
 - [Open sourcing the project.](https://github.com/browser-automation/cba)
 - Moved [chrome-automation.com](https://chrome-automation.com/) from slow Drupal instance into a blasing fast
@@ -80,9 +81,10 @@ what we do with CBA - please hit that star icon at
 
 The rewrite haven't introduced many UI changes, but rather it introduced
 replacement of old Jquery libraries with much more lightweight and independent
-Web Components. It did required some effort to rewrite the components, but it
-now provide all the basis to easy modification and modularization for the future
-UI changes.
+Web Components. It did required some effort to rewrite the components, but now
+they have all the basis for easier modifications and are separate modules, so
+it's simpler and safer to introduce changes on top and work on more appealing
+UI.
 
 All the components currently live in a [new
 repository](https://github.com/browser-automation/cba-components) and whoever
@@ -130,39 +132,44 @@ which previously fall as a victim of
 and performant instance of [CMintS](https://cmints.io/), it definatelly still
 have huge room to improve around SEO and finally making the website not look
 like so 2010(we are working on it), but yet metrics are much more promising in
-comparison to the previous "red" metrics.
+comparison to the previous "red" one.
 
 <img src="/images/projects/cba/website-audit-2021-02-15.png" class="full-width"
 alt="https://chrome-automation.com homepage performance audit">
 
 ## Future of the CBA
 
-I think CBA can have quite promising future regarding user growth and
-considering that more than 40 000 users are already using it, it does seem to
-help people automate their borring daily tasks and I hope to make the automation
-creation in future much more simple and accessible for everyone with the help of
-[@Newman](https://www.behance.net/driver202de98) with whom we are working hard
-on new UI and UX of the product.
+I think CBA can have quite promising future regarding the user growth,
+considering that it has more than **43 000** weekly users and the project has
+already been downloaded more than **250 000** times, it does seem to help people
+automate their borring daily tasks and I hope to make the automation creation in
+future much more simple and accessible for everyone with the help of
+[@Newman](https://www.linkedin.com/in/tigran-sahakyan-b4116268/) with whom we
+are working hard on new UI and UX of the product and
+[@Alex](https://www.linkedin.com/in/alex-saroyan/) who is helping us with the
+business advices and planing.
 
 Surely we have quite a lot of challenges in front of us, one of the biggest and
-important challeng will be the changes in the platforms(i.e. Manifest v3
-introduction) and ensuring that CBA can continue being fully supported on Chrome
-in future.
+important challeng will be the changes in the platforms(i.e. [Manifest v3
+introduction](https://developer.chrome.com/docs/extensions/mv3/intro/)) and
+ensuring that CBA can continue being supported on Chrome in future.
 
 Another challeng which I'm going to take is the revolutionizing the recording of
 the automation, currently the recording of the actions isn't working reliable
 enough considering the complexity of the modern web, but I'm willing to take the
-challeng and in future create automation solution that will require the least
-understanding of the programming.
+challeng and in future create automation solution that will require the user
+least understanding of the programming and web, in order to create automations.
 
-Those are quite big challenges which I think we will be able to handle, now that
-we can involve more contributors and have a better basis for it, as latest data
-and user feedback analysis provided quite a lot of hints how we can get more
-users, increase retention rate and improve the product I would expect big user
-growth after winning the challenges. The biggest problem right now is the small
-development team and people dedicated to the project, so any contribution is
-welcome and if you would like helping with the development of CBA please do not
-hessitate reaching out to me or you can just start from
-[https://github.com/browser-automation](https://github.com/browser-automation).
+Those are quite big challenges which we will be working hard to to tackle,
+especially now that we can involve more contributors, have better basis and
+time.
+
+Also latest data and user feedback analysis provided quite a lot of hints how we
+can get more users, increase retention rate and improve the product I would
+expect big user growth after some simple modifications. The biggest problem
+right now is the small development team and people dedicated to the project, so
+any contribution is welcome and if you would like helping us with the
+development of CBA please do not hessitate reaching out to me at
+[saroyanm@gmail.com](mailto:saroyanm@gmail.com).
 
 Fingers crossed and let's go back to work!
