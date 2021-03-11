@@ -177,3 +177,5 @@ biggest problem right now is the small development team and people dedicated to
 the project, so any contribution is welcome and if you would like helping us
 with the development of CBA please do not hesitate reaching out to me at
 [saroyanm@gmail.com](mailto:saroyanm@gmail.com).
+
+[Get CBA here](https://chrome.google.com/webstore/detail/chromium-browser-automati/jmbmjnojfkcohdpkpjmeeijckfbebbon).
