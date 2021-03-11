@@ -7,7 +7,7 @@ css: [highlight.css]
 twitterCard: summary_large_image
 date: 2021-03-11
 type: post
-tags: [extension, cba, rewrite]
+tags: [extension, tests, web components, rewrite]
 ---
 
 In 2012 I was working for a matchmaking company as a developer at the online
