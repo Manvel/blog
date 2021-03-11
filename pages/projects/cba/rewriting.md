@@ -175,5 +175,5 @@ understood how we can drastically improve user retention rate to get maximum out
 of current **100+ daily installs** - will follow up on this separately. The
 biggest problem right now is the small development team and people dedicated to
 the project, so any contribution is welcome and if you would like helping us
-with the development of CBA please do not hessitate reaching out to me at
+with the development of CBA please do not hesitate reaching out to me at
 [saroyanm@gmail.com](mailto:saroyanm@gmail.com).
