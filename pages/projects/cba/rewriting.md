@@ -81,7 +81,7 @@ on the desktop app and make it less platform dependent in the future, so it
 seems to be a good idea to start ahead.
 ### Components and UI
 
-The rewrite hasn't't introduced many UI changes, but rather it introduced
+The rewrite hasn't introduced many UI changes, but rather it introduced
 replacement of old Jquery libraries with much more lightweight and independent
 Web Components. It did require some effort to rewrite the components, but now
 they have all the basis for easier modifications and are separate modules, so
