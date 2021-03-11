@@ -1,7 +1,7 @@
 ---
 title: Rewriting Chromium Browser Automation
 description: History of the Chromium Browser Automation, why and what have we rewritten, open sourcing it, challenges and the future of CBA.
-image: images/projects/cba/rewriting-promo.png
+image: images/projects/cba/rewriting-promo.png?1
 author: saroyanm
 css: [highlight.css]
 twitterCard: summary_large_image
